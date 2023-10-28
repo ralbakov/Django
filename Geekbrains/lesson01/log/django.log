@@ -1,0 +1,538 @@
+INFO 2023-10-28 15:50:19,687 views 2116 6167687168 Index page accessed
+INFO 2023-10-28 15:50:19,688 basehttp 2116 6167687168 "GET / HTTP/1.1" 200 16
+INFO 2023-10-28 15:56:01,133 autoreload 2255 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 15:56:03,392 views 2255 6126563328 Index page accessed
+INFO 2023-10-28 15:56:03,392 basehttp 2255 6126563328 "GET / HTTP/1.1" 200 302
+INFO 2023-10-28 15:56:37,023 autoreload 2255 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 15:56:37,192 autoreload 2268 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 15:56:44,369 autoreload 2268 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 15:56:44,561 autoreload 2276 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 15:56:45,410 views 2276 6194999296 Index page accessed
+INFO 2023-10-28 15:56:45,411 basehttp 2276 6194999296 "GET / HTTP/1.1" 200 327
+INFO 2023-10-28 15:59:37,233 autoreload 2276 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 15:59:37,401 autoreload 2288 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 15:59:49,606 autoreload 2288 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 15:59:49,772 autoreload 2297 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:05:39,743 views 2297 6201356288 Index page accessed
+INFO 2023-10-28 16:05:39,744 basehttp 2297 6201356288 "GET / HTTP/1.1" 200 327
+INFO 2023-10-28 16:08:18,997 autoreload 2297 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:08:19,217 autoreload 2407 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:08:20,333 autoreload 2407 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:08:20,477 autoreload 2411 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:08:23,544 autoreload 2411 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:08:23,716 autoreload 2415 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:08:27,793 autoreload 2415 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:08:27,958 autoreload 2421 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:08:33,048 autoreload 2421 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:08:33,200 autoreload 2427 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:08:34,239 autoreload 2427 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:08:34,404 autoreload 2428 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:08:36,461 autoreload 2428 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:08:36,639 autoreload 2431 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:08:38,695 autoreload 2431 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:08:38,869 autoreload 2435 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:08:39,914 autoreload 2435 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:08:40,073 autoreload 2436 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:08:42,132 autoreload 2436 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:08:42,301 autoreload 2442 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:08:45,360 autoreload 2442 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:08:45,537 autoreload 2445 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:08:50,617 autoreload 2445 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:08:50,773 autoreload 2451 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:08:54,847 autoreload 2451 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:08:55,020 autoreload 2455 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:08:59,125 autoreload 2455 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:08:59,282 autoreload 2461 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:09:01,339 autoreload 2461 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:09:01,497 autoreload 2464 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:09:05,566 autoreload 2464 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:09:05,730 autoreload 2470 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:09:10,817 autoreload 2470 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:09:10,976 autoreload 2478 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:09:14,045 autoreload 2478 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:09:14,230 autoreload 2482 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:09:15,176 views 2482 6130724864 Index page accessed
+INFO 2023-10-28 16:09:15,177 basehttp 2482 6130724864 "GET / HTTP/1.1" 200 491
+INFO 2023-10-28 16:10:12,421 autoreload 2482 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:10:12,588 autoreload 2500 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:10:16,737 autoreload 2500 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:10:16,924 autoreload 2506 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:10:18,041 autoreload 2506 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:10:18,177 autoreload 2507 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:10:21,321 autoreload 2507 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:10:21,483 autoreload 2513 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:10:25,551 autoreload 2513 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:10:25,706 autoreload 2519 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:10:28,780 autoreload 2519 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:10:28,935 autoreload 2522 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:10:29,975 autoreload 2522 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:10:30,138 autoreload 2526 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:10:31,183 autoreload 2526 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:10:31,340 autoreload 2527 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:10:32,379 autoreload 2527 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:10:32,552 autoreload 2528 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:10:37,636 autoreload 2528 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:10:37,791 autoreload 2534 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:10:40,858 autoreload 2534 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:10:41,018 autoreload 2540 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:10:48,130 autoreload 2540 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:10:48,303 autoreload 2546 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:10:54,402 autoreload 2546 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:10:54,561 autoreload 2554 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:10:56,608 autoreload 2554 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:10:56,780 autoreload 2559 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:10:57,822 autoreload 2559 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:10:57,972 autoreload 2560 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:11:00,024 autoreload 2560 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:11:00,191 autoreload 2563 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:11:02,241 autoreload 2563 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:11:02,418 autoreload 2567 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:11:05,487 autoreload 2567 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:11:05,654 autoreload 2570 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:11:07,708 autoreload 2570 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:11:07,865 autoreload 2575 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:11:10,929 autoreload 2575 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:11:11,096 autoreload 2581 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:11:21,231 autoreload 2581 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:11:21,402 autoreload 2589 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:11:22,444 autoreload 2589 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:11:22,610 autoreload 2592 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:11:24,658 autoreload 2592 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:11:24,840 autoreload 2596 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:11:27,900 autoreload 2596 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:11:28,076 autoreload 2599 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:11:29,126 autoreload 2599 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:11:29,270 autoreload 2603 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:11:41,476 autoreload 2603 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:11:41,628 autoreload 2610 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:11:52,793 autoreload 2610 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:11:52,962 autoreload 2618 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:11:55,571 views 2618 6170357760 Index page accessed
+INFO 2023-10-28 16:11:55,573 basehttp 2618 6170357760 "GET / HTTP/1.1" 200 859
+INFO 2023-10-28 16:46:52,738 views 2618 6170357760 Index page accessed
+INFO 2023-10-28 16:46:52,739 basehttp 2618 6170357760 "GET / HTTP/1.1" 200 859
+INFO 2023-10-28 16:48:08,855 autoreload 2618 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:48:09,103 autoreload 2722 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:48:10,227 autoreload 2722 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:48:10,369 autoreload 2727 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:48:28,688 autoreload 2727 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:48:28,922 autoreload 2733 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:48:31,991 autoreload 2733 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:48:32,161 autoreload 2740 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:48:58,521 autoreload 2740 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:48:58,689 autoreload 2746 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:49:00,732 autoreload 2746 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:49:00,909 autoreload 2752 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:49:02,960 autoreload 2752 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:49:03,134 autoreload 2753 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:49:11,269 autoreload 2753 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:49:11,426 autoreload 2759 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:49:14,481 autoreload 2759 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:49:14,644 autoreload 2765 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:49:22,756 autoreload 2765 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:49:22,938 autoreload 2771 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:49:26,002 autoreload 2771 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:49:26,160 autoreload 2778 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:49:31,997 views 2778 6135230464 Index page accessed
+INFO 2023-10-28 16:49:31,998 basehttp 2778 6135230464 "GET / HTTP/1.1" 200 1019
+INFO 2023-10-28 16:49:33,488 views 2778 6135230464 Index page accessed
+INFO 2023-10-28 16:49:33,488 basehttp 2778 6135230464 "GET / HTTP/1.1" 200 1019
+INFO 2023-10-28 16:50:15,118 autoreload 2778 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:50:15,294 autoreload 2791 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:50:18,353 autoreload 2791 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:50:18,516 autoreload 2798 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:50:19,558 autoreload 2798 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:50:19,729 autoreload 2799 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:50:21,849 autoreload 2799 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:50:21,995 autoreload 2805 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:50:23,112 autoreload 2805 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:50:23,258 autoreload 2806 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:50:24,372 autoreload 2806 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:50:24,516 autoreload 2807 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:50:26,563 autoreload 2807 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:50:26,718 autoreload 2813 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:50:34,849 autoreload 2813 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:50:35,018 autoreload 2819 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:50:39,101 autoreload 2819 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:50:39,258 autoreload 2825 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:50:46,374 autoreload 2825 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:50:46,541 autoreload 2831 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:50:49,297 views 2831 6164164608 Index page accessed
+INFO 2023-10-28 16:50:49,298 basehttp 2831 6164164608 "GET / HTTP/1.1" 200 1019
+INFO 2023-10-28 16:50:55,374 views 2831 6164164608 Index page accessed
+INFO 2023-10-28 16:50:55,374 basehttp 2831 6164164608 "GET / HTTP/1.1" 200 1019
+INFO 2023-10-28 16:52:53,139 autoreload 2831 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:52:53,393 autoreload 2854 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:52:54,499 autoreload 2854 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:52:54,637 autoreload 2859 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:52:55,758 autoreload 2859 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:52:55,906 autoreload 2860 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:52:59,033 autoreload 2860 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:52:59,202 autoreload 2864 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:53:01,261 autoreload 2864 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:53:01,417 autoreload 2868 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:53:08,602 autoreload 2868 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:53:08,777 autoreload 2877 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:53:15,975 autoreload 2877 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:53:16,145 autoreload 2885 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:53:42,640 autoreload 2885 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:53:42,828 autoreload 2892 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:53:49,031 autoreload 2892 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:53:49,210 autoreload 2900 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:53:52,209 views 2900 6138032128 Index page accessed
+INFO 2023-10-28 16:53:52,210 basehttp 2900 6138032128 "GET / HTTP/1.1" 200 1023
+INFO 2023-10-28 16:54:46,519 autoreload 2900 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:54:46,683 autoreload 2908 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:54:49,814 autoreload 2908 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:54:50,006 autoreload 2915 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:54:52,787 views 2915 6135492608 Index page accessed
+INFO 2023-10-28 16:54:52,788 basehttp 2915 6135492608 "GET / HTTP/1.1" 200 1046
+INFO 2023-10-28 16:55:23,816 autoreload 2915 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:55:23,995 autoreload 2926 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:55:26,027 views 2926 6122237952 Index page accessed
+INFO 2023-10-28 16:55:26,028 basehttp 2926 6122237952 "GET / HTTP/1.1" 200 925
+INFO 2023-10-28 16:56:07,019 autoreload 2926 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:56:07,197 autoreload 2937 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:56:17,436 autoreload 2937 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:56:17,587 autoreload 2946 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:56:18,702 autoreload 2946 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:56:18,851 autoreload 2949 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:56:25,032 autoreload 2949 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:56:25,188 autoreload 2956 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:56:29,349 autoreload 2956 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:56:29,520 autoreload 2963 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:56:32,577 views 2963 6155448320 Index page accessed
+INFO 2023-10-28 16:56:32,578 basehttp 2963 6155448320 "GET / HTTP/1.1" 200 939
+INFO 2023-10-28 16:56:39,871 autoreload 2963 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:56:40,050 autoreload 2971 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:56:46,243 autoreload 2971 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:56:46,442 autoreload 2977 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:56:46,930 views 2977 6161739776 Index page accessed
+INFO 2023-10-28 16:56:46,931 basehttp 2977 6161739776 "GET / HTTP/1.1" 200 940
+INFO 2023-10-28 16:56:56,276 views 2977 6161739776 Index page accessed
+INFO 2023-10-28 16:56:56,277 basehttp 2977 6161739776 "GET / HTTP/1.1" 200 940
+INFO 2023-10-28 16:56:56,699 autoreload 2977 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:56:56,882 autoreload 2983 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:56:57,710 views 2983 6126350336 Index page accessed
+INFO 2023-10-28 16:56:57,711 basehttp 2983 6126350336 "GET / HTTP/1.1" 200 940
+INFO 2023-10-28 16:57:48,904 autoreload 2983 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:57:49,100 autoreload 2996 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 16:57:50,417 views 2996 6156087296 Index page accessed
+INFO 2023-10-28 16:57:50,419 basehttp 2996 6156087296 "GET / HTTP/1.1" 200 942
+INFO 2023-10-28 16:57:51,554 views 2996 6156087296 Index page accessed
+INFO 2023-10-28 16:57:51,554 basehttp 2996 6156087296 "GET / HTTP/1.1" 200 942
+INFO 2023-10-28 16:57:56,393 autoreload 2996 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 16:57:56,583 autoreload 3004 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:00:13,087 autoreload 3004 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:00:13,250 autoreload 3017 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:00:14,942 views 3017 6197522432 Index page accessed
+INFO 2023-10-28 17:00:14,943 basehttp 3017 6197522432 "GET / HTTP/1.1" 200 942
+INFO 2023-10-28 17:00:16,862 views 3017 6197522432 Index page accessed
+INFO 2023-10-28 17:00:16,863 basehttp 3017 6197522432 "GET / HTTP/1.1" 200 942
+INFO 2023-10-28 17:00:20,394 views 3017 6197522432 Index page accessed
+INFO 2023-10-28 17:00:20,395 basehttp 3017 6197522432 "GET / HTTP/1.1" 200 942
+INFO 2023-10-28 17:00:20,574 autoreload 3017 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:00:20,757 autoreload 3026 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:00:21,879 views 3026 6170374144 Index page accessed
+INFO 2023-10-28 17:00:21,880 basehttp 3026 6170374144 "GET / HTTP/1.1" 200 940
+INFO 2023-10-28 17:00:25,663 views 3026 6170374144 Index page accessed
+INFO 2023-10-28 17:00:25,664 basehttp 3026 6170374144 "GET / HTTP/1.1" 200 940
+INFO 2023-10-28 17:00:45,323 autoreload 3026 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:00:45,494 autoreload 3038 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:00:46,615 autoreload 3038 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:00:46,765 autoreload 3041 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:00:58,054 autoreload 3041 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:00:58,214 autoreload 3047 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:01:08,431 autoreload 3047 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:01:08,597 autoreload 3057 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:01:12,771 autoreload 3057 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:01:12,948 autoreload 3063 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:01:15,075 autoreload 3063 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:01:15,223 autoreload 3069 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:01:16,331 autoreload 3069 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:01:16,474 autoreload 3070 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:01:20,624 autoreload 3070 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:01:20,778 autoreload 3077 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:01:25,945 autoreload 3077 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:01:26,105 autoreload 3083 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:01:32,294 autoreload 3083 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:01:32,462 autoreload 3089 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:01:37,630 autoreload 3089 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:01:37,804 autoreload 3095 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:01:48,053 autoreload 3095 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:01:48,232 autoreload 3101 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:01:50,365 autoreload 3101 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:01:50,527 autoreload 3109 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:01:52,652 autoreload 3109 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:01:52,829 autoreload 3110 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:02:05,101 autoreload 3110 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:02:05,272 autoreload 3116 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:02:37,874 autoreload 3116 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:02:38,026 autoreload 3124 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:02:40,157 autoreload 3124 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:02:40,323 autoreload 3130 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:02:45,492 autoreload 3130 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:02:45,659 autoreload 3137 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:02:48,725 autoreload 3137 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:02:48,883 autoreload 3138 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:02:49,925 autoreload 3138 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:02:50,088 autoreload 3145 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:02:51,127 autoreload 3145 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:02:51,303 autoreload 3146 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:02:56,404 autoreload 3146 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:02:56,561 autoreload 3152 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:02:57,672 autoreload 3152 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:02:57,811 autoreload 3154 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:03:02,980 autoreload 3154 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:03:03,153 autoreload 3160 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:03:06,300 autoreload 3160 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:03:06,471 autoreload 3166 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:03:07,577 autoreload 3166 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:03:07,725 autoreload 3167 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:03:10,876 autoreload 3167 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:03:11,052 autoreload 3173 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:03:21,319 autoreload 3173 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:03:21,487 autoreload 3179 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:03:26,656 autoreload 3179 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:03:26,841 autoreload 3185 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:03:30,996 autoreload 3185 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:03:31,165 autoreload 3191 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:03:32,303 autoreload 3191 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:03:32,442 autoreload 3192 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:03:34,850 views 3192 6128250880 Index page accessed
+INFO 2023-10-28 17:03:34,851 basehttp 3192 6128250880 "GET / HTTP/1.1" 200 968
+INFO 2023-10-28 17:05:43,285 autoreload 3192 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:05:43,452 autoreload 3209 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:05:45,495 autoreload 3209 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:05:45,647 autoreload 3215 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:05:48,719 autoreload 3215 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:05:48,882 autoreload 3216 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:05:49,920 autoreload 3216 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:05:50,111 autoreload 3223 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:05:52,157 autoreload 3223 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:05:52,330 autoreload 3224 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:05:55,396 autoreload 3224 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:05:55,555 autoreload 3230 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:06:19,890 autoreload 3230 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:06:20,062 autoreload 3236 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:06:29,217 autoreload 3236 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:06:29,379 autoreload 3244 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:06:37,505 autoreload 3244 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:06:37,674 autoreload 3250 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:06:46,819 autoreload 3250 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:06:46,978 autoreload 3258 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:06:52,061 autoreload 3258 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:06:52,228 autoreload 3266 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:06:55,283 autoreload 3266 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:06:55,435 autoreload 3273 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:06:57,495 autoreload 3273 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:06:57,662 autoreload 3274 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:07:10,872 autoreload 3274 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:07:11,049 autoreload 3285 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:07:12,089 autoreload 3285 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:07:12,251 autoreload 3288 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:07:16,338 autoreload 3288 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:07:16,498 autoreload 3292 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:07:21,583 autoreload 3292 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:07:21,762 autoreload 3298 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:07:28,889 autoreload 3298 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:07:29,066 autoreload 3306 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:07:33,150 autoreload 3306 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:07:33,313 autoreload 3312 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:07:34,348 autoreload 3312 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:07:34,516 autoreload 3313 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:07:37,584 autoreload 3313 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:07:37,743 autoreload 3319 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:07:38,783 autoreload 3319 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:07:38,934 autoreload 3320 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:07:47,057 autoreload 3320 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:07:47,219 autoreload 3326 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:07:59,419 autoreload 3326 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:07:59,601 autoreload 3335 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:08:02,315 views 3335 6135427072 Index page accessed
+INFO 2023-10-28 17:08:02,316 basehttp 3335 6135427072 "GET / HTTP/1.1" 200 1064
+INFO 2023-10-28 17:08:20,149 autoreload 3335 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:08:20,332 autoreload 3345 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:08:21,162 views 3345 6130888704 Index page accessed
+INFO 2023-10-28 17:08:21,163 basehttp 3345 6130888704 "GET / HTTP/1.1" 200 1064
+INFO 2023-10-28 17:08:58,079 autoreload 3345 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:08:58,220 autoreload 3355 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:09:04,410 autoreload 3355 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:09:04,576 autoreload 3363 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:09:06,754 views 3363 6203420672 Index page accessed
+INFO 2023-10-28 17:09:06,755 basehttp 3363 6203420672 "GET / HTTP/1.1" 200 1072
+INFO 2023-10-28 17:09:07,711 views 3363 6203420672 Index page accessed
+INFO 2023-10-28 17:09:07,711 basehttp 3363 6203420672 "GET / HTTP/1.1" 200 1072
+INFO 2023-10-28 17:09:08,896 views 3363 6203420672 Index page accessed
+INFO 2023-10-28 17:09:08,897 basehttp 3363 6203420672 "GET / HTTP/1.1" 200 1072
+INFO 2023-10-28 17:09:14,686 views 3363 6203420672 Index page accessed
+INFO 2023-10-28 17:09:14,688 basehttp 3363 6203420672 "GET / HTTP/1.1" 200 1072
+INFO 2023-10-28 17:09:21,977 autoreload 3363 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:09:22,156 autoreload 3373 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:09:25,298 autoreload 3373 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:09:25,486 autoreload 3379 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:09:26,215 views 3379 6160592896 Index page accessed
+INFO 2023-10-28 17:09:26,216 basehttp 3379 6160592896 "GET / HTTP/1.1" 200 1066
+INFO 2023-10-28 17:09:28,808 views 3379 6160592896 Index page accessed
+INFO 2023-10-28 17:09:28,808 basehttp 3379 6160592896 "GET / HTTP/1.1" 200 1066
+INFO 2023-10-28 17:09:43,898 autoreload 3379 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:09:44,068 autoreload 3389 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:11:27,096 autoreload 3389 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:11:27,259 autoreload 3414 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:11:29,392 autoreload 3414 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:11:29,563 autoreload 3421 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:11:32,716 autoreload 3421 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:11:32,876 autoreload 3422 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:11:34,009 autoreload 3422 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:11:34,149 autoreload 3425 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:11:50,389 autoreload 3425 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:11:50,574 autoreload 3434 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:11:52,627 autoreload 3434 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:11:52,792 autoreload 3440 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:11:54,843 autoreload 3440 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:11:54,998 autoreload 3441 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:12:04,127 autoreload 3441 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:12:04,284 autoreload 3447 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:12:06,330 autoreload 3447 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:12:06,497 autoreload 3453 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:12:12,595 autoreload 3453 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:12:12,786 autoreload 3459 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:16:48,103 autoreload 3459 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:16:48,260 autoreload 3477 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:16:52,416 autoreload 3477 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:16:52,600 autoreload 3484 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:16:53,837 views 3484 6166032384 Index page accessed
+INFO 2023-10-28 17:16:53,839 basehttp 3484 6166032384 "GET / HTTP/1.1" 200 1034
+INFO 2023-10-28 17:16:59,880 autoreload 3484 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:17:00,058 autoreload 3492 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:17:10,318 autoreload 3492 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:17:10,484 autoreload 3498 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:17:13,641 autoreload 3498 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:17:13,821 autoreload 3505 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:18:24,154 autoreload 3505 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:18:24,312 autoreload 3519 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:18:25,424 autoreload 3519 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:18:25,571 autoreload 3522 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:18:27,625 autoreload 3522 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:18:27,797 autoreload 3526 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:18:37,083 autoreload 3526 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:18:37,252 autoreload 3532 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:18:40,957 views 3532 6191296512 Index page accessed
+INFO 2023-10-28 17:18:40,958 basehttp 3532 6191296512 "GET / HTTP/1.1" 200 1060
+INFO 2023-10-28 17:18:42,366 views 3532 6191296512 Index page accessed
+INFO 2023-10-28 17:18:42,367 basehttp 3532 6191296512 "GET / HTTP/1.1" 200 1060
+INFO 2023-10-28 17:18:46,554 autoreload 3532 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:18:46,758 autoreload 3540 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:18:47,582 views 3540 6128349184 Index page accessed
+INFO 2023-10-28 17:18:47,584 basehttp 3540 6128349184 "GET / HTTP/1.1" 200 1059
+INFO 2023-10-28 17:19:12,206 autoreload 3540 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:19:12,391 autoreload 3551 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:19:44,806 views 3551 6164164608 Index page accessed
+INFO 2023-10-28 17:19:44,807 basehttp 3551 6164164608 "GET / HTTP/1.1" 200 1060
+INFO 2023-10-28 17:19:45,942 views 3551 6164164608 Index page accessed
+INFO 2023-10-28 17:19:45,942 basehttp 3551 6164164608 "GET / HTTP/1.1" 200 1060
+INFO 2023-10-28 17:20:13,521 autoreload 3551 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:20:13,689 autoreload 3567 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:20:16,555 views 3567 6135066624 Index page accessed
+INFO 2023-10-28 17:20:16,556 basehttp 3567 6135066624 "GET / HTTP/1.1" 200 1054
+INFO 2023-10-28 17:20:17,858 views 3567 6135066624 Index page accessed
+INFO 2023-10-28 17:20:17,859 basehttp 3567 6135066624 "GET / HTTP/1.1" 200 1054
+INFO 2023-10-28 17:20:24,007 autoreload 3567 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:20:24,204 autoreload 3579 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:20:24,430 views 3579 6134493184 Index page accessed
+INFO 2023-10-28 17:20:24,430 basehttp 3579 6134493184 "GET / HTTP/1.1" 200 1051
+INFO 2023-10-28 17:20:30,412 autoreload 3579 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:20:30,584 autoreload 3588 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:20:31,450 views 3588 6201782272 Index page accessed
+INFO 2023-10-28 17:20:31,451 basehttp 3588 6201782272 "GET / HTTP/1.1" 200 1054
+INFO 2023-10-28 17:20:34,090 views 3588 6201782272 Index page accessed
+INFO 2023-10-28 17:20:34,091 basehttp 3588 6201782272 "GET / HTTP/1.1" 200 1054
+INFO 2023-10-28 17:20:40,847 autoreload 3588 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:20:41,017 autoreload 3597 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:20:42,834 views 3597 6156136448 Index page accessed
+INFO 2023-10-28 17:20:42,835 basehttp 3597 6156136448 "GET / HTTP/1.1" 200 1054
+INFO 2023-10-28 17:20:43,863 views 3597 6156136448 Index page accessed
+INFO 2023-10-28 17:20:43,864 basehttp 3597 6156136448 "GET / HTTP/1.1" 200 1054
+INFO 2023-10-28 17:20:59,478 autoreload 3597 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:20:59,644 autoreload 3603 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:21:03,820 views 3603 6134083584 Index page accessed
+INFO 2023-10-28 17:21:03,821 basehttp 3603 6134083584 "GET / HTTP/1.1" 200 1058
+INFO 2023-10-28 17:22:28,678 autoreload 3603 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:22:28,854 autoreload 3616 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:22:29,819 views 3616 6166212608 Index page accessed
+INFO 2023-10-28 17:22:29,820 basehttp 3616 6166212608 "GET / HTTP/1.1" 200 1034
+INFO 2023-10-28 17:22:48,252 autoreload 3616 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:22:48,446 autoreload 3625 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:22:51,589 autoreload 3625 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:22:51,788 autoreload 3631 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:22:52,515 views 3631 6129397760 Index page accessed
+INFO 2023-10-28 17:22:52,516 basehttp 3631 6129397760 "GET / HTTP/1.1" 200 1047
+INFO 2023-10-28 17:24:26,746 autoreload 3631 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:24:26,937 autoreload 3640 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:24:27,508 views 3640 6138310656 Index page accessed
+INFO 2023-10-28 17:24:27,509 basehttp 3640 6138310656 "GET / HTTP/1.1" 200 1054
+INFO 2023-10-28 17:24:29,081 views 3640 6138310656 Index page accessed
+INFO 2023-10-28 17:24:29,082 basehttp 3640 6138310656 "GET / HTTP/1.1" 200 1054
+INFO 2023-10-28 17:24:36,411 views 3640 6138310656 Index page accessed
+INFO 2023-10-28 17:24:36,412 basehttp 3640 6138310656 "GET / HTTP/1.1" 200 1054
+INFO 2023-10-28 17:25:29,300 autoreload 3640 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:25:29,465 autoreload 3652 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:25:30,607 autoreload 3652 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:25:30,752 autoreload 3655 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:25:30,803 views 3655 6161985536 Index page accessed
+INFO 2023-10-28 17:25:30,804 basehttp 3655 6161985536 "GET / HTTP/1.1" 200 1055
+INFO 2023-10-28 17:25:37,471 views 3655 6161985536 Index page accessed
+INFO 2023-10-28 17:25:37,472 basehttp 3655 6161985536 "GET / HTTP/1.1" 200 1055
+INFO 2023-10-28 17:26:23,945 autoreload 3655 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:26:24,104 autoreload 3665 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:26:28,261 autoreload 3665 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:26:28,444 autoreload 3671 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:26:29,315 views 3671 6156038144 Index page accessed
+INFO 2023-10-28 17:26:29,316 basehttp 3671 6156038144 "GET / HTTP/1.1" 200 1050
+INFO 2023-10-28 17:36:14,011 autoreload 3849 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:36:15,494 views 3849 6194294784 Index page accessed
+INFO 2023-10-28 17:36:15,494 basehttp 3849 6194294784 "GET / HTTP/1.1" 200 1055
+INFO 2023-10-28 17:36:17,249 basehttp 3849 6194294784 "GET /about HTTP/1.1" 301 0
+INFO 2023-10-28 17:36:17,257 views 3849 6194294784 About page accessed
+INFO 2023-10-28 17:36:17,258 basehttp 3849 6194294784 "GET /about/ HTTP/1.1" 200 984
+INFO 2023-10-28 17:37:39,784 autoreload 3885 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:37:45,084 views 3885 6158413824 About page accessed
+INFO 2023-10-28 17:37:45,085 basehttp 3885 6158413824 "GET /about/ HTTP/1.1" 200 991
+INFO 2023-10-28 17:37:46,541 views 3885 6158413824 About page accessed
+INFO 2023-10-28 17:37:46,542 basehttp 3885 6158413824 "GET /about/ HTTP/1.1" 200 991
+INFO 2023-10-28 17:37:53,453 views 3885 6158413824 About page accessed
+INFO 2023-10-28 17:37:53,454 basehttp 3885 6158413824 "GET /about/ HTTP/1.1" 200 991
+INFO 2023-10-28 17:38:09,443 autoreload 3885 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 17:38:09,602 autoreload 3897 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 17:38:11,078 views 3897 6125481984 About page accessed
+INFO 2023-10-28 17:38:11,078 basehttp 3897 6125481984 "GET /about/ HTTP/1.1" 200 992
+INFO 2023-10-28 17:38:14,295 views 3897 6125481984 Index page accessed
+INFO 2023-10-28 17:38:14,296 basehttp 3897 6125481984 "GET / HTTP/1.1" 200 1055
+INFO 2023-10-28 17:38:18,912 views 3897 6125481984 About page accessed
+INFO 2023-10-28 17:38:18,913 basehttp 3897 6125481984 "GET /about/ HTTP/1.1" 200 992
+INFO 2023-10-28 17:38:20,531 views 3897 6125481984 Index page accessed
+INFO 2023-10-28 17:38:20,532 basehttp 3897 6125481984 "GET / HTTP/1.1" 200 1055
+INFO 2023-10-28 17:38:28,024 views 3897 6125481984 About page accessed
+INFO 2023-10-28 17:38:28,025 basehttp 3897 6125481984 "GET /about/ HTTP/1.1" 200 992
+INFO 2023-10-28 18:20:42,254 autoreload 3897 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 18:20:42,411 autoreload 3926 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 18:20:48,561 autoreload 3926 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 18:20:48,725 autoreload 3934 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 18:20:56,934 autoreload 3934 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 18:20:57,099 autoreload 3940 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 18:20:59,217 autoreload 3940 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 18:20:59,377 autoreload 3946 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 18:21:04,550 autoreload 3946 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 18:21:04,709 autoreload 3952 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 18:21:08,862 autoreload 3952 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 18:21:09,018 autoreload 3958 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 18:21:10,140 autoreload 3958 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 18:21:10,296 autoreload 3959 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 18:21:11,773 views 3959 6192410624 About page accessed
+INFO 2023-10-28 18:21:11,775 basehttp 3959 6192410624 "GET /about/ HTTP/1.1" 200 1042
+INFO 2023-10-28 18:21:27,789 autoreload 3959 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 18:21:27,950 autoreload 3971 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 18:21:48,640 views 3971 6128775168 Index page accessed
+INFO 2023-10-28 18:21:48,641 basehttp 3971 6128775168 "GET / HTTP/1.1" 200 1055
+INFO 2023-10-28 18:22:05,884 autoreload 3971 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
+INFO 2023-10-28 18:22:06,048 autoreload 3986 8141001472 Watching for file changes with StatReloader
