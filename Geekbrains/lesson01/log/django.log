@@ -536,3 +536,56 @@ INFO 2023-10-28 18:21:48,640 views 3971 6128775168 Index page accessed
 INFO 2023-10-28 18:21:48,641 basehttp 3971 6128775168 "GET / HTTP/1.1" 200 1055
 INFO 2023-10-28 18:22:05,884 autoreload 3971 8141001472 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_01/views.py changed, reloading.
 INFO 2023-10-28 18:22:06,048 autoreload 3986 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 18:28:27,932 autoreload 4172 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 18:28:29,610 views 4172 6132822016 Index page accessed
+INFO 2023-10-28 18:28:29,611 basehttp 4172 6132822016 "GET / HTTP/1.1" 200 1056
+INFO 2023-10-28 18:28:32,688 views 4172 6132822016 About page accessed
+INFO 2023-10-28 18:28:32,689 basehttp 4172 6132822016 "GET /about/ HTTP/1.1" 200 1044
+INFO 2023-10-28 18:30:20,452 autoreload 4243 8141001472 Watching for file changes with StatReloader
+INFO 2023-10-28 18:30:54,934 views 4243 6134083584 About page accessed
+INFO 2023-10-28 18:30:54,935 basehttp 4243 6134083584 "GET /about/ HTTP/1.1" 200 1044
+INFO 2023-10-28 18:30:57,674 views 4243 6134083584 About page accessed
+INFO 2023-10-28 18:30:57,675 basehttp 4243 6134083584 "GET /about/ HTTP/1.1" 200 1044
+INFO 2023-10-28 18:30:58,491 views 4243 6134083584 Index page accessed
+INFO 2023-10-28 18:30:58,491 basehttp 4243 6134083584 "GET / HTTP/1.1" 200 1056
+INFO 2023-10-28 18:35:18,102 views 4243 6134083584 Index page accessed
+INFO 2023-10-28 18:35:18,103 basehttp 4243 6134083584 "GET / HTTP/1.1" 200 1056
+INFO 2023-10-28 18:36:02,825 basehttp 4243 6150909952 code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03}\x97\x14á½²\x9c\x80')
+ERROR 2023-10-28 18:36:02,827 basehttp 4243 6150909952 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2023-10-28 18:36:02,843 basehttp 4243 6150909952 code 400, message Bad request version ('0\x00,zz\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+ERROR 2023-10-28 18:36:02,843 basehttp 4243 6150909952 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2023-10-28 18:36:02,859 basehttp 4243 6150909952 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00}\x01\x00\x00y\x03\x01')
+ERROR 2023-10-28 18:36:02,859 basehttp 4243 6150909952 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2023-10-28 18:36:02,963 basehttp 4243 6150909952 code 400, message Bad request version ('=N¥»ha\x03ù¿,\x04ÉÁÌ6®uå(\x81ÁL¾#iõò\x82\x94\x81Xû\x00*ÚÚ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+ERROR 2023-10-28 18:36:02,964 basehttp 4243 6150909952 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2023-10-28 18:36:02,981 basehttp 4243 6150909952 code 400, message Bad request version ('ÌÔÃ¢þN\x00,::\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+ERROR 2023-10-28 18:36:02,981 basehttp 4243 6150909952 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2023-10-28 18:36:02,994 basehttp 4243 6150909952 code 400, message Bad request syntax ('\x16\x03\x01\x00}\x01\x00\x00y\x03\x01')
+ERROR 2023-10-28 18:36:02,994 basehttp 4243 6150909952 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2023-10-28 18:36:37,448 views 4243 6150909952 Index page accessed
+INFO 2023-10-28 18:36:37,449 basehttp 4243 6150909952 "GET / HTTP/1.1" 200 1056
+WARNING 2023-10-28 18:36:38,218 log 4243 6150909952 Not Found: /favicon.ico
+WARNING 2023-10-28 18:36:38,218 basehttp 4243 6150909952 "GET /favicon.ico HTTP/1.1" 404 2442
+INFO 2023-10-28 18:36:46,241 basehttp 4243 6150909952 "GET /about HTTP/1.1" 301 0
+INFO 2023-10-28 18:36:46,276 views 4243 6150909952 About page accessed
+INFO 2023-10-28 18:36:46,277 basehttp 4243 6150909952 "GET /about/ HTTP/1.1" 200 1044
+INFO 2023-10-28 18:36:49,403 views 4243 6150909952 Index page accessed
+INFO 2023-10-28 18:36:49,405 basehttp 4243 6150909952 "GET / HTTP/1.1" 200 1056
+INFO 2023-10-28 18:36:53,818 basehttp 4243 6150909952 "GET /about HTTP/1.1" 301 0
+INFO 2023-10-28 18:36:53,918 views 4243 6150909952 About page accessed
+INFO 2023-10-28 18:36:53,919 basehttp 4243 6150909952 "GET /about/ HTTP/1.1" 200 1044
+INFO 2023-10-28 18:36:59,544 views 4243 6150909952 Index page accessed
+INFO 2023-10-28 18:36:59,545 basehttp 4243 6150909952 "GET / HTTP/1.1" 200 1056
+INFO 2023-10-28 18:37:05,848 basehttp 4243 6150909952 "GET /about HTTP/1.1" 301 0
+INFO 2023-10-28 18:37:05,878 views 4243 6150909952 About page accessed
+INFO 2023-10-28 18:37:05,879 basehttp 4243 6150909952 "GET /about/ HTTP/1.1" 200 1044
+INFO 2023-10-28 18:37:12,341 views 4243 6150909952 Index page accessed
+INFO 2023-10-28 18:37:12,342 basehttp 4243 6150909952 "GET / HTTP/1.1" 200 1056
+INFO 2023-10-28 18:37:29,552 views 4243 6167736320 Index page accessed
+INFO 2023-10-28 18:37:29,553 basehttp 4243 6167736320 "GET / HTTP/1.1" 200 1056
+INFO 2023-10-28 18:37:33,651 basehttp 4243 6134083584 "GET /about HTTP/1.1" 301 0
+INFO 2023-10-28 18:37:33,669 views 4243 6167736320 About page accessed
+INFO 2023-10-28 18:37:33,669 basehttp 4243 6167736320 "GET /about/ HTTP/1.1" 200 1044
+INFO 2023-10-28 18:37:45,007 views 4243 6167736320 Index page accessed
+INFO 2023-10-28 18:37:45,007 basehttp 4243 6167736320 "GET / HTTP/1.1" 200 1056
+INFO 2023-10-28 18:37:54,426 basehttp 4243 6167736320 - Broken pipe from ('192.168.1.14', 52733)

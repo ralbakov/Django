@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'lesapp2',
     'lectapp3',
     'hw_les_01',
+    'hw_les_02',    
 ]
 
 MIDDLEWARE = [
