@@ -1,7 +1,5 @@
-from django.core.management.base import BaseCommand, CommandParser
+from django.core.management.base import BaseCommand
 from hw_les_02.models import Customer, Order, Product
-import random
-import datetime
 
 class Command (BaseCommand):
     help = "Delete data create"

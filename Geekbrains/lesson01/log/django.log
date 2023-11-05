@@ -589,3 +589,1389 @@ INFO 2023-10-28 18:37:33,669 basehttp 4243 6167736320 "GET /about/ HTTP/1.1" 200
 INFO 2023-10-28 18:37:45,007 views 4243 6167736320 Index page accessed
 INFO 2023-10-28 18:37:45,007 basehttp 4243 6167736320 "GET / HTTP/1.1" 200 1056
 INFO 2023-10-28 18:37:54,426 basehttp 4243 6167736320 - Broken pipe from ('192.168.1.14', 52733)
+INFO 2023-11-04 10:06:39,537 autoreload 4865 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:06:50,507 views 4865 6138163200 Index page accessed
+INFO 2023-11-04 10:06:50,508 basehttp 4865 6138163200 "GET / HTTP/1.1" 200 1056
+WARNING 2023-11-04 10:06:50,580 log 4865 6138163200 Not Found: /favicon.ico
+WARNING 2023-11-04 10:06:50,581 basehttp 4865 6138163200 "GET /favicon.ico HTTP/1.1" 404 2440
+WARNING 2023-11-04 10:06:50,583 log 4865 6154989568 Not Found: /apple-touch-icon-precomposed.png
+WARNING 2023-11-04 10:06:50,583 basehttp 4865 6154989568 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2503
+WARNING 2023-11-04 10:06:50,585 log 4865 6154989568 Not Found: /apple-touch-icon.png
+WARNING 2023-11-04 10:06:50,585 basehttp 4865 6154989568 "GET /apple-touch-icon.png HTTP/1.1" 404 2467
+INFO 2023-11-04 10:06:58,478 basehttp 4865 6138163200 "GET /about HTTP/1.1" 301 0
+INFO 2023-11-04 10:06:58,486 views 4865 6138163200 About page accessed
+INFO 2023-11-04 10:06:58,487 basehttp 4865 6138163200 "GET /about/ HTTP/1.1" 200 1044
+INFO 2023-11-04 10:07:35,559 autoreload 4865 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesson01/urls.py changed, reloading.
+INFO 2023-11-04 10:07:35,726 autoreload 4890 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:07:38,878 autoreload 4890 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesson01/urls.py changed, reloading.
+INFO 2023-11-04 10:07:39,045 autoreload 4897 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:07:43,620 views 4897 6191525888 Index page accessed
+INFO 2023-11-04 10:07:43,621 basehttp 4897 6191525888 "GET / HTTP/1.1" 200 1056
+INFO 2023-11-04 10:07:46,113 views 4897 6191525888 Index page accessed
+INFO 2023-11-04 10:07:46,114 basehttp 4897 6191525888 "GET / HTTP/1.1" 200 1056
+INFO 2023-11-04 10:07:55,161 views 4897 6191525888 Index page accessed
+INFO 2023-11-04 10:07:55,163 basehttp 4897 6191525888 "GET / HTTP/1.1" 200 1056
+WARNING 2023-11-04 10:07:55,802 log 4897 6191525888 Not Found: /games
+WARNING 2023-11-04 10:07:55,803 basehttp 4897 6191525888 "GET //games HTTP/1.1" 404 2633
+WARNING 2023-11-04 10:08:06,194 log 4897 6191525888 Not Found: /games
+WARNING 2023-11-04 10:08:06,195 basehttp 4897 6191525888 "GET /games HTTP/1.1" 404 2633
+WARNING 2023-11-04 10:08:09,205 log 4897 6191525888 Not Found: /games/
+WARNING 2023-11-04 10:08:09,206 basehttp 4897 6191525888 "GET /games/ HTTP/1.1" 404 2882
+ERROR 2023-11-04 10:08:17,566 log 4897 6191525888 Internal Server Error: /games/coin
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: lesapp2_handtails
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py", line 17, in handtails
+    res.save()
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: lesapp2_handtails
+ERROR 2023-11-04 10:08:17,569 basehttp 4897 6191525888 "GET /games/coin HTTP/1.1" 500 140392
+ERROR 2023-11-04 10:09:05,793 log 4897 6191525888 Internal Server Error: /games/coin
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: lesapp2_handtails
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py", line 17, in handtails
+    res.save()
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: lesapp2_handtails
+ERROR 2023-11-04 10:09:05,795 basehttp 4897 6191525888 "GET /games/coin HTTP/1.1" 500 140392
+WARNING 2023-11-04 10:09:06,506 log 4897 6191525888 Not Found: /games/
+WARNING 2023-11-04 10:09:06,506 basehttp 4897 6191525888 "GET /games/ HTTP/1.1" 404 2882
+ERROR 2023-11-04 10:09:11,758 log 4897 6191525888 Internal Server Error: /games/last_coins
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: lesapp2_handtails
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py", line 21, in last_coins
+    data = Handtails.get_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py", line 14, in get_last
+    hand_count = sum(flip.side == 'Орел' for flip in last_n_stat)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 398, in __iter__
+    self._fetch_all()
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: lesapp2_handtails
+ERROR 2023-11-04 10:09:11,760 basehttp 4897 6191525888 "GET /games/last_coins HTTP/1.1" 500 124823
+WARNING 2023-11-04 10:10:44,363 log 4897 6191525888 Not Found: /games
+WARNING 2023-11-04 10:10:44,364 basehttp 4897 6191525888 "GET /games HTTP/1.1" 404 2633
+INFO 2023-11-04 10:10:45,167 views 4897 6191525888 Index page accessed
+INFO 2023-11-04 10:10:45,168 basehttp 4897 6191525888 "GET / HTTP/1.1" 200 1056
+INFO 2023-11-04 10:10:46,042 basehttp 4897 6191525888 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:10:50,472 basehttp 4897 6191525888 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:10:50,595 basehttp 4897 6191525888 "GET /les3 HTTP/1.1" 301 0
+INFO 2023-11-04 10:10:50,603 basehttp 4897 6191525888 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:11:49,405 autoreload 4897 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesson01/urls.py changed, reloading.
+INFO 2023-11-04 10:11:49,573 autoreload 4987 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:11:52,715 autoreload 4987 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesson01/urls.py changed, reloading.
+INFO 2023-11-04 10:11:52,888 autoreload 4995 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:11:54,775 basehttp 4995 6131609600 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:11:56,830 basehttp 4995 6131609600 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:11:57,792 views 4995 6131609600 Index page accessed
+INFO 2023-11-04 10:11:57,793 basehttp 4995 6131609600 "GET / HTTP/1.1" 200 13
+INFO 2023-11-04 10:12:00,869 views 4995 6131609600 Index page accessed
+INFO 2023-11-04 10:12:00,869 basehttp 4995 6131609600 "GET / HTTP/1.1" 200 13
+INFO 2023-11-04 10:12:03,206 views 4995 6131609600 Index page accessed
+INFO 2023-11-04 10:12:03,207 basehttp 4995 6131609600 "GET / HTTP/1.1" 200 13
+INFO 2023-11-04 10:12:03,959 basehttp 4995 6131609600 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:12:06,537 basehttp 4995 6131609600 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:12:07,553 views 4995 6131609600 Index page accessed
+INFO 2023-11-04 10:12:07,554 basehttp 4995 6131609600 "GET / HTTP/1.1" 200 13
+DEBUG 2023-11-04 10:12:08,215 views 4995 6131609600 Отработала функция "Орел и решка"
+INFO 2023-11-04 10:12:08,216 basehttp 4995 6131609600 "GET /coins/ HTTP/1.1" 200 8
+WARNING 2023-11-04 10:12:10,202 log 4995 6131609600 Not Found: /cgames
+WARNING 2023-11-04 10:12:10,203 basehttp 4995 6131609600 "GET /cgames HTTP/1.1" 404 3133
+DEBUG 2023-11-04 10:12:17,300 views 4995 6131609600 Отработала функция "Орел и решка"
+INFO 2023-11-04 10:12:17,300 basehttp 4995 6131609600 "GET /coins/ HTTP/1.1" 200 8
+INFO 2023-11-04 10:12:17,575 views 4995 6131609600 Index page accessed
+INFO 2023-11-04 10:12:17,575 basehttp 4995 6131609600 "GET / HTTP/1.1" 200 13
+ERROR 2023-11-04 10:12:18,014 views 4995 6131609600 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/myapp/views.py", line 14, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-11-04 10:12:18,016 basehttp 4995 6131609600 "GET /about/ HTTP/1.1" 200 27
+INFO 2023-11-04 10:12:27,610 views 4995 6131609600 Index page accessed
+INFO 2023-11-04 10:12:27,611 basehttp 4995 6131609600 "GET / HTTP/1.1" 200 13
+DEBUG 2023-11-04 10:12:27,846 views 4995 6131609600 Отработала функция "Орел и решка"
+INFO 2023-11-04 10:12:27,847 basehttp 4995 6131609600 "GET /coins/ HTTP/1.1" 200 10
+INFO 2023-11-04 10:12:27,923 basehttp 4995 6131609600 "GET /coins HTTP/1.1" 301 0
+DEBUG 2023-11-04 10:12:27,929 views 4995 6131609600 Отработала функция "Орел и решка"
+INFO 2023-11-04 10:12:27,930 basehttp 4995 6131609600 "GET /coins/ HTTP/1.1" 200 8
+DEBUG 2023-11-04 10:12:39,548 views 4995 6131609600 Отработала функция "Орел и решка"
+INFO 2023-11-04 10:12:39,549 basehttp 4995 6131609600 "GET /coins/ HTTP/1.1" 200 10
+INFO 2023-11-04 10:12:40,197 views 4995 6131609600 Index page accessed
+INFO 2023-11-04 10:12:40,197 basehttp 4995 6131609600 "GET / HTTP/1.1" 200 13
+INFO 2023-11-04 10:12:40,562 basehttp 4995 6131609600 "GET /nums/ HTTP/1.1" 200 22
+WARNING 2023-11-04 10:12:41,056 log 4995 6131609600 Not Found: /num
+WARNING 2023-11-04 10:12:41,056 basehttp 4995 6131609600 "GET /num HTTP/1.1" 404 3124
+INFO 2023-11-04 10:12:41,256 basehttp 4995 6131609600 "GET /nums/ HTTP/1.1" 200 21
+INFO 2023-11-04 10:12:43,410 basehttp 4995 6131609600 "GET /nums/ HTTP/1.1" 200 22
+INFO 2023-11-04 10:12:51,285 views 4995 6131609600 Index page accessed
+INFO 2023-11-04 10:12:51,285 basehttp 4995 6131609600 "GET / HTTP/1.1" 200 13
+WARNING 2023-11-04 10:12:51,632 log 4995 6131609600 Not Found: /games
+WARNING 2023-11-04 10:12:51,633 basehttp 4995 6131609600 "GET /games HTTP/1.1" 404 3130
+WARNING 2023-11-04 10:12:54,839 log 4995 6131609600 Not Found: /games/
+WARNING 2023-11-04 10:12:54,840 basehttp 4995 6131609600 "GET /games/ HTTP/1.1" 404 3379
+ERROR 2023-11-04 10:12:59,203 log 4995 6131609600 Internal Server Error: /games/coin
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: lesapp2_handtails
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py", line 17, in handtails
+    res.save()
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: lesapp2_handtails
+ERROR 2023-11-04 10:12:59,206 basehttp 4995 6131609600 "GET /games/coin HTTP/1.1" 500 140392
+INFO 2023-11-04 10:18:56,367 autoreload 5141 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:19:03,185 views 5141 6124777472 Index page accessed
+INFO 2023-11-04 10:19:03,185 basehttp 5141 6124777472 "GET / HTTP/1.1" 200 13
+DEBUG 2023-11-04 10:19:08,116 views 5141 6124777472 Отработала функция "Орел и решка"
+INFO 2023-11-04 10:19:08,117 basehttp 5141 6124777472 "GET /coins/ HTTP/1.1" 200 8
+DEBUG 2023-11-04 10:19:12,663 views 5141 6124777472 Отработала функция "Орел и решка"
+INFO 2023-11-04 10:19:12,664 basehttp 5141 6124777472 "GET /coins/ HTTP/1.1" 200 10
+INFO 2023-11-04 10:19:13,223 views 5141 6124777472 Index page accessed
+INFO 2023-11-04 10:19:13,224 basehttp 5141 6124777472 "GET / HTTP/1.1" 200 13
+ERROR 2023-11-04 10:19:15,044 log 5141 6124777472 Internal Server Error: /games/last_coins
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: lesapp2_handtails
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py", line 21, in last_coins
+    data = Handtails.get_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py", line 14, in get_last
+    hand_count = sum(flip.side == 'Орел' for flip in last_n_stat)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 398, in __iter__
+    self._fetch_all()
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: lesapp2_handtails
+ERROR 2023-11-04 10:19:15,048 basehttp 5141 6124777472 "GET /games/last_coins HTTP/1.1" 500 124823
+WARNING 2023-11-04 10:19:15,257 log 5141 6124777472 Not Found: /games
+WARNING 2023-11-04 10:19:15,258 basehttp 5141 6124777472 "GET /games HTTP/1.1" 404 3130
+ERROR 2023-11-04 10:19:18,409 log 5141 6124777472 Internal Server Error: /games/coin
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: lesapp2_handtails
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py", line 17, in handtails
+    res.save()
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: lesapp2_handtails
+ERROR 2023-11-04 10:19:18,412 basehttp 5141 6124777472 "GET /games/coin HTTP/1.1" 500 140372
+INFO 2023-11-04 10:25:11,884 autoreload 5241 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:25:14,848 views 5241 6130888704 Index page accessed
+INFO 2023-11-04 10:25:14,848 basehttp 5241 6130888704 "GET / HTTP/1.1" 200 13
+INFO 2023-11-04 10:25:17,857 views 5241 6130888704 Index page accessed
+INFO 2023-11-04 10:25:17,858 basehttp 5241 6130888704 "GET / HTTP/1.1" 200 13
+INFO 2023-11-04 10:25:19,119 basehttp 5241 6130888704 "GET /games/coin HTTP/1.1" 200 10
+INFO 2023-11-04 10:25:22,396 basehttp 5241 6130888704 "GET /games/coin HTTP/1.1" 200 8
+INFO 2023-11-04 10:25:25,616 basehttp 5241 6130888704 "GET /games/coin HTTP/1.1" 200 10
+WARNING 2023-11-04 10:25:25,857 log 5241 6130888704 Not Found: /games/
+WARNING 2023-11-04 10:25:25,857 basehttp 5241 6130888704 "GET /games/ HTTP/1.1" 404 3379
+INFO 2023-11-04 10:25:30,892 basehttp 5241 6130888704 "GET /games/last_coins HTTP/1.1" 200 23
+WARNING 2023-11-04 10:25:38,341 log 5241 6130888704 Not Found: /games
+WARNING 2023-11-04 10:25:38,342 basehttp 5241 6130888704 "GET /games HTTP/1.1" 404 3130
+INFO 2023-11-04 10:25:38,994 basehttp 5241 6130888704 "GET /games/last_coins HTTP/1.1" 200 23
+INFO 2023-11-04 10:25:39,483 views 5241 6130888704 Index page accessed
+INFO 2023-11-04 10:25:39,484 basehttp 5241 6130888704 "GET / HTTP/1.1" 200 13
+INFO 2023-11-04 10:25:40,030 basehttp 5241 6130888704 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:25:40,067 basehttp 5241 6130888704 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:25:43,721 basehttp 5241 6130888704 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:25:44,029 basehttp 5241 6130888704 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:28:21,749 autoreload 5316 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:28:23,639 views 5316 6201815040 Index page accessed
+INFO 2023-11-04 10:28:23,640 basehttp 5316 6201815040 "GET / HTTP/1.1" 200 13
+INFO 2023-11-04 10:28:29,391 views 5316 6201815040 Index page accessed
+INFO 2023-11-04 10:28:29,392 basehttp 5316 6201815040 "GET / HTTP/1.1" 200 13
+WARNING 2023-11-04 10:28:29,930 log 5316 6201815040 Not Found: /hello
+WARNING 2023-11-04 10:28:29,930 basehttp 5316 6201815040 "GET /hello HTTP/1.1" 404 3130
+INFO 2023-11-04 10:28:59,543 views 5316 6201815040 Index page accessed
+INFO 2023-11-04 10:28:59,544 basehttp 5316 6201815040 "GET / HTTP/1.1" 200 13
+INFO 2023-11-04 10:29:00,177 basehttp 5316 6201815040 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:29:00,493 basehttp 5316 6201815040 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:29:03,774 basehttp 5316 6201815040 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2023-11-04 10:29:06,452 basehttp 5316 6201815040 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2023-11-04 10:29:06,643 basehttp 5316 6201815040 "GET /les3/hello HTTP/1.1" 301 0
+INFO 2023-11-04 10:29:06,651 basehttp 5316 6201815040 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2023-11-04 10:29:33,753 basehttp 5316 6201815040 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2023-11-04 10:30:02,252 basehttp 5316 6201815040 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2023-11-04 10:30:03,471 basehttp 5316 6201815040 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:30:04,102 basehttp 5316 6201815040 "GET /les3/posts/2022/12/ghbdtn/ HTTP/1.1" 200 367
+WARNING 2023-11-04 10:30:04,202 log 5316 6201815040 Not Found: /les3/posts
+WARNING 2023-11-04 10:30:04,202 basehttp 5316 6201815040 "GET /les3/posts HTTP/1.1" 404 5095
+INFO 2023-11-04 10:30:09,728 basehttp 5316 6201815040 "GET /les3/posts/2022/12/ghbdtn/ HTTP/1.1" 200 367
+INFO 2023-11-04 10:30:14,846 basehttp 5316 6201815040 "GET /les3/posts/2022/12/ghbdtn/ HTTP/1.1" 200 367
+INFO 2023-11-04 10:30:16,024 basehttp 5316 6201815040 "GET /les3/posts/2022/12/ HTTP/1.1" 200 22
+INFO 2023-11-04 10:30:24,414 basehttp 5316 6201815040 "GET /les3/posts/2022/12/ HTTP/1.1" 200 22
+INFO 2023-11-04 10:30:26,174 basehttp 5316 6201815040 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:30:32,678 basehttp 5316 6201815040 "GET /les3/if/ HTTP/1.1" 200 581
+INFO 2023-11-04 10:30:37,022 basehttp 5316 6201815040 "GET /les3/if/ HTTP/1.1" 200 581
+INFO 2023-11-04 10:30:37,392 basehttp 5316 6201815040 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:30:38,315 basehttp 5316 6201815040 "GET /les3/for/ HTTP/1.1" 200 1026
+INFO 2023-11-04 10:30:48,788 basehttp 5316 6201815040 "GET /les3/ HTTP/1.1" 200 489
+WARNING 2023-11-04 10:30:49,043 log 5316 6201815040 Not Found: /les3/author/2/
+WARNING 2023-11-04 10:30:49,044 basehttp 5316 6201815040 "GET /les3/author/2/ HTTP/1.1" 404 5077
+WARNING 2023-11-04 10:30:49,109 log 5316 6201815040 Not Found: /les3/author
+WARNING 2023-11-04 10:30:49,110 basehttp 5316 6201815040 "GET /les3/author HTTP/1.1" 404 5098
+WARNING 2023-11-04 10:30:57,016 log 5316 6201815040 Not Found: /les3/author/2/
+WARNING 2023-11-04 10:30:57,017 basehttp 5316 6201815040 "GET /les3/author/2/ HTTP/1.1" 404 5077
+WARNING 2023-11-04 10:31:12,322 log 5316 6201815040 Not Found: /les3/author/2/
+WARNING 2023-11-04 10:31:12,323 basehttp 5316 6201815040 "GET /les3/author/2/ HTTP/1.1" 404 5077
+WARNING 2023-11-04 10:31:12,553 log 5316 6201815040 Not Found: /les3/author/1/
+WARNING 2023-11-04 10:31:12,554 basehttp 5316 6201815040 "GET /les3/author/1/ HTTP/1.1" 404 5077
+WARNING 2023-11-04 10:31:12,798 log 5316 6201815040 Not Found: /les3/author/
+WARNING 2023-11-04 10:31:12,799 basehttp 5316 6201815040 "GET /les3/author/ HTTP/1.1" 404 5101
+WARNING 2023-11-04 10:31:19,742 log 5316 6201815040 Not Found: /les3/author
+WARNING 2023-11-04 10:31:19,743 basehttp 5316 6201815040 "GET /les3/author HTTP/1.1" 404 5098
+WARNING 2023-11-04 10:31:20,584 log 5316 6201815040 Not Found: /les3/author/1/
+WARNING 2023-11-04 10:31:20,584 basehttp 5316 6201815040 "GET /les3/author/1/ HTTP/1.1" 404 5077
+INFO 2023-11-04 10:31:21,536 basehttp 5316 6201815040 "GET /les3/about/ HTTP/1.1" 200 222
+WARNING 2023-11-04 10:31:37,323 log 5316 6201815040 Not Found: /les3/author/
+WARNING 2023-11-04 10:31:37,324 basehttp 5316 6201815040 "GET /les3/author/ HTTP/1.1" 404 5101
+WARNING 2023-11-04 10:31:39,029 log 5316 6201815040 Not Found: /les3/author/2/
+WARNING 2023-11-04 10:31:39,030 basehttp 5316 6201815040 "GET /les3/author/2/ HTTP/1.1" 404 5077
+INFO 2023-11-04 10:31:40,930 basehttp 5316 6201815040 "GET /les3/author/3 HTTP/1.1" 301 0
+WARNING 2023-11-04 10:31:40,946 log 5316 6201815040 Not Found: /les3/author/3/
+WARNING 2023-11-04 10:31:40,947 basehttp 5316 6201815040 "GET /les3/author/3/ HTTP/1.1" 404 5077
+INFO 2023-11-04 10:33:00,989 autoreload 5458 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:33:03,990 basehttp 5458 6157725696 "GET /les3/author/3/ HTTP/1.1" 200 1282
+INFO 2023-11-04 10:33:06,604 basehttp 5458 6157725696 "GET /les3/post/30/ HTTP/1.1" 200 572
+WARNING 2023-11-04 10:33:12,072 log 5458 6157725696 Not Found: /les3/author/
+WARNING 2023-11-04 10:33:12,073 basehttp 5458 6157725696 "GET /les3/author/ HTTP/1.1" 404 5101
+INFO 2023-11-04 10:33:13,142 basehttp 5458 6157725696 "GET /les3/author/2/ HTTP/1.1" 200 1294
+WARNING 2023-11-04 10:33:17,169 log 5458 6157725696 Not Found: /les3/author/
+WARNING 2023-11-04 10:33:17,170 basehttp 5458 6157725696 "GET /les3/author/ HTTP/1.1" 404 5101
+INFO 2023-11-04 10:33:18,101 basehttp 5458 6157725696 "GET /les3/author/5/ HTTP/1.1" 200 1289
+INFO 2023-11-04 10:33:19,144 basehttp 5458 6157725696 "GET /les3/author/5/ HTTP/1.1" 200 1289
+INFO 2023-11-04 10:33:19,258 basehttp 5458 6157725696 "GET /les3/author/5/ HTTP/1.1" 200 1289
+INFO 2023-11-04 10:33:21,556 basehttp 5458 6157725696 "GET /les3/post/50/ HTTP/1.1" 200 572
+INFO 2023-11-04 10:33:33,862 basehttp 5458 6157725696 "GET /les3/author/3/ HTTP/1.1" 200 1282
+INFO 2023-11-04 10:33:34,784 basehttp 5458 6157725696 "GET /les3/about/ HTTP/1.1" 200 222
+INFO 2023-11-04 10:33:35,015 basehttp 5458 6157725696 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:33:35,649 basehttp 5458 6157725696 "GET /les3/post/50/ HTTP/1.1" 200 572
+INFO 2023-11-04 10:47:36,886 autoreload 5680 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:48:03,391 autoreload 5680 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/urls.py changed, reloading.
+INFO 2023-11-04 10:48:03,554 autoreload 5695 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:48:06,692 autoreload 5695 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/urls.py changed, reloading.
+INFO 2023-11-04 10:48:06,857 autoreload 5701 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:48:14,072 autoreload 5701 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/urls.py changed, reloading.
+INFO 2023-11-04 10:48:14,233 autoreload 5708 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:48:17,346 autoreload 5708 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/urls.py changed, reloading.
+INFO 2023-11-04 10:48:17,497 autoreload 5714 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:48:20,635 autoreload 5714 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/urls.py changed, reloading.
+INFO 2023-11-04 10:48:20,791 autoreload 5720 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:48:47,924 basehttp 5720 6161526784 "GET /les3/post/50/ HTTP/1.1" 200 572
+INFO 2023-11-04 10:48:49,067 basehttp 5720 6161526784 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 10:48:49,871 views 5720 6161526784 Index page accessed
+INFO 2023-11-04 10:48:49,872 basehttp 5720 6161526784 "GET / HTTP/1.1" 200 13
+INFO 2023-11-04 10:48:50,903 basehttp 5720 6161526784 "GET /games/last_coins HTTP/1.1" 200 23
+WARNING 2023-11-04 10:48:51,554 log 5720 6161526784 Not Found: /games
+WARNING 2023-11-04 10:48:51,555 basehttp 5720 6161526784 "GET /games HTTP/1.1" 404 3130
+WARNING 2023-11-04 10:49:00,458 log 5720 6161526784 Not Found: /games/
+WARNING 2023-11-04 10:49:00,459 basehttp 5720 6161526784 "GET /games/ HTTP/1.1" 404 3551
+INFO 2023-11-04 10:49:06,754 basehttp 5720 6161526784 "GET /games/index HTTP/1.1" 200 130
+INFO 2023-11-04 10:49:59,589 autoreload 5720 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:49:59,759 autoreload 5769 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:50:02,262 basehttp 5769 6169964544 "GET /games/index HTTP/1.1" 200 104
+INFO 2023-11-04 10:50:11,103 autoreload 5769 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:50:11,265 autoreload 5777 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:50:12,308 basehttp 5777 6204829696 "GET /games/index HTTP/1.1" 200 130
+INFO 2023-11-04 10:50:15,423 autoreload 5777 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:50:15,606 autoreload 5785 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:50:15,716 basehttp 5785 6135476224 "GET /games/index HTTP/1.1" 200 133
+INFO 2023-11-04 10:56:16,953 autoreload 5785 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:56:17,123 autoreload 5815 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:56:23,323 autoreload 5815 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:56:23,485 autoreload 5823 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:56:26,546 autoreload 5823 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:56:26,706 autoreload 5828 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:56:27,821 autoreload 5828 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:56:27,966 autoreload 5829 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:56:31,132 autoreload 5829 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:56:31,301 autoreload 5835 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:56:32,427 autoreload 5835 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:56:32,572 autoreload 5836 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:56:35,706 autoreload 5836 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:56:35,873 autoreload 5842 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:56:52,214 autoreload 5842 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:56:52,385 autoreload 5848 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:56:53,501 autoreload 5848 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:56:53,645 autoreload 5851 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:57:08,948 autoreload 5851 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:57:09,107 autoreload 5858 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:57:34,567 autoreload 5858 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:57:34,747 autoreload 5866 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:57:35,858 autoreload 5866 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:57:35,996 autoreload 5869 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:57:37,122 autoreload 5869 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:57:37,263 autoreload 5870 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:57:39,384 autoreload 5870 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:57:39,560 autoreload 5874 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:57:44,715 autoreload 5874 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:57:44,890 autoreload 5880 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:57:59,245 autoreload 5880 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 10:57:59,432 autoreload 5888 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 10:59:21,428 basehttp 5888 6167949312 "GET /games/index HTTP/1.1" 200 133
+WARNING 2023-11-04 10:59:31,794 log 5888 6167949312 Not Found: /games/games
+WARNING 2023-11-04 10:59:31,794 basehttp 5888 6167949312 "GET /games/games HTTP/1.1" 404 3566
+WARNING 2023-11-04 10:59:35,628 log 5888 6167949312 Not Found: /games/
+WARNING 2023-11-04 10:59:35,629 basehttp 5888 6167949312 "GET /games/ HTTP/1.1" 404 3551
+INFO 2023-11-04 10:59:36,110 basehttp 5888 6167949312 "GET /games/coin HTTP/1.1" 200 139
+INFO 2023-11-04 10:59:56,542 basehttp 5888 6167949312 "GET /games/coin HTTP/1.1" 200 139
+INFO 2023-11-04 11:00:52,750 autoreload 5888 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:00:52,936 autoreload 5921 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:00:54,605 basehttp 5921 6199767040 "GET /games/coin HTTP/1.1" 200 127
+INFO 2023-11-04 11:00:55,487 basehttp 5921 6199767040 "GET /games/coin HTTP/1.1" 200 127
+INFO 2023-11-04 11:00:56,246 basehttp 5921 6199767040 "GET /games/coin HTTP/1.1" 200 127
+INFO 2023-11-04 11:00:56,925 basehttp 5921 6199767040 "GET /games/coin HTTP/1.1" 200 129
+INFO 2023-11-04 11:01:03,209 basehttp 5921 6199767040 "GET /games/coin HTTP/1.1" 200 127
+INFO 2023-11-04 11:01:03,286 autoreload 5921 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:01:03,457 autoreload 5929 7944835840 Watching for file changes with StatReloader
+ERROR 2023-11-04 11:01:03,920 log 5929 6201602048 Internal Server Error: /games/coin
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py", line 19, in handtails
+    "content": side}
+               ^^^^
+NameError: name 'side' is not defined
+ERROR 2023-11-04 11:01:03,921 basehttp 5929 6201602048 "GET /games/coin HTTP/1.1" 500 62175
+ERROR 2023-11-04 11:01:05,088 log 5929 6201602048 Internal Server Error: /games/coin
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py", line 19, in handtails
+    "content": side}
+               ^^^^
+NameError: name 'side' is not defined
+ERROR 2023-11-04 11:01:05,089 basehttp 5929 6201602048 "GET /games/coin HTTP/1.1" 500 62175
+ERROR 2023-11-04 11:01:08,005 log 5929 6201602048 Internal Server Error: /games/coin
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py", line 19, in handtails
+    "content": side}
+               ^^^^
+NameError: name 'side' is not defined
+ERROR 2023-11-04 11:01:08,006 basehttp 5929 6201602048 "GET /games/coin HTTP/1.1" 500 62175
+INFO 2023-11-04 11:01:13,748 autoreload 5929 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:01:13,925 autoreload 5944 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:01:14,122 basehttp 5944 6197751808 "GET /games/coin HTTP/1.1" 200 142
+INFO 2023-11-04 11:01:15,055 basehttp 5944 6197751808 "GET /games/coin HTTP/1.1" 200 142
+INFO 2023-11-04 11:01:23,153 autoreload 5944 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:01:23,345 autoreload 5954 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:01:23,613 basehttp 5954 6204026880 "GET /games/coin HTTP/1.1" 200 129
+INFO 2023-11-04 11:01:24,197 basehttp 5954 6204026880 "GET /games/coin HTTP/1.1" 200 129
+INFO 2023-11-04 11:01:28,554 autoreload 5954 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:01:28,722 autoreload 5960 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:01:31,866 autoreload 5960 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:01:32,029 autoreload 5966 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:01:33,142 autoreload 5966 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:01:33,290 autoreload 5967 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:01:36,424 autoreload 5967 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:01:36,590 autoreload 5973 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:01:42,775 autoreload 5973 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:01:42,939 autoreload 5980 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:01:48,084 autoreload 5980 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:01:48,265 autoreload 5986 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:01:48,496 basehttp 5986 6171553792 "GET /games/coin HTTP/1.1" 200 129
+INFO 2023-11-04 11:01:49,233 basehttp 5986 6171553792 "GET /games/coin HTTP/1.1" 200 127
+INFO 2023-11-04 11:02:24,014 autoreload 5986 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:02:24,191 autoreload 5994 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:02:33,401 autoreload 5994 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:02:33,574 autoreload 6002 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:02:35,627 autoreload 6002 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:02:35,799 autoreload 6008 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:02:52,182 autoreload 6008 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:02:52,363 autoreload 6015 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:02:54,491 autoreload 6015 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:02:54,645 autoreload 6021 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:03:06,557 basehttp 6021 6203961344 "GET /games/coin HTTP/1.1" 200 127
+WARNING 2023-11-04 11:03:09,586 log 6021 6203961344 Not Found: /games/
+WARNING 2023-11-04 11:03:09,587 basehttp 6021 6203961344 "GET /games/ HTTP/1.1" 404 3551
+INFO 2023-11-04 11:03:10,164 basehttp 6021 6203961344 "GET /games/last_coins HTTP/1.1" 200 162
+INFO 2023-11-04 11:04:01,992 basehttp 6021 6203961344 "GET /games/last_coins HTTP/1.1" 200 162
+INFO 2023-11-04 11:04:04,311 basehttp 6021 6203961344 "GET /games/last_coins HTTP/1.1" 200 162
+WARNING 2023-11-04 11:04:05,699 log 6021 6203961344 Not Found: /games/
+WARNING 2023-11-04 11:04:05,699 basehttp 6021 6203961344 "GET /games/ HTTP/1.1" 404 3551
+INFO 2023-11-04 11:04:11,593 basehttp 6021 6203961344 "GET /games/index HTTP/1.1" 200 133
+INFO 2023-11-04 11:04:14,507 basehttp 6021 6203961344 "GET /games/index HTTP/1.1" 200 133
+WARNING 2023-11-04 11:04:14,826 log 6021 6203961344 Not Found: /games/
+WARNING 2023-11-04 11:04:14,827 basehttp 6021 6203961344 "GET /games/ HTTP/1.1" 404 3551
+INFO 2023-11-04 11:04:15,100 basehttp 6021 6203961344 "GET /games/coin HTTP/1.1" 200 127
+INFO 2023-11-04 11:05:39,703 basehttp 6021 6203961344 "GET /games/coin HTTP/1.1" 200 129
+INFO 2023-11-04 11:05:42,822 basehttp 6021 6203961344 "GET /games/coin HTTP/1.1" 200 127
+WARNING 2023-11-04 11:05:43,127 log 6021 6203961344 Not Found: /games/
+WARNING 2023-11-04 11:05:43,128 basehttp 6021 6203961344 "GET /games/ HTTP/1.1" 404 3551
+INFO 2023-11-04 11:05:43,623 basehttp 6021 6203961344 "GET /games/last_coins HTTP/1.1" 200 162
+INFO 2023-11-04 11:06:26,885 autoreload 6021 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:06:27,057 autoreload 6083 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:06:28,185 autoreload 6083 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:06:28,338 autoreload 6086 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:06:32,487 autoreload 6086 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:06:32,664 autoreload 6090 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:06:35,837 basehttp 6090 6169276416 "GET /games/last_coins HTTP/1.1" 200 162
+INFO 2023-11-04 11:06:37,957 basehttp 6090 6169276416 "GET /games/last_coins HTTP/1.1" 200 162
+WARNING 2023-11-04 11:06:40,354 log 6090 6169276416 Not Found: /games/
+WARNING 2023-11-04 11:06:40,355 basehttp 6090 6169276416 "GET /games/ HTTP/1.1" 404 3551
+INFO 2023-11-04 11:06:40,765 basehttp 6090 6169276416 "GET /games/coin HTTP/1.1" 200 129
+INFO 2023-11-04 11:08:52,636 basehttp 6090 6169276416 "GET /games/coin HTTP/1.1" 200 127
+WARNING 2023-11-04 11:08:52,870 log 6090 6169276416 Not Found: /games/
+WARNING 2023-11-04 11:08:52,871 basehttp 6090 6169276416 "GET /games/ HTTP/1.1" 404 3551
+ERROR 2023-11-04 11:08:53,478 log 6090 6169276416 Internal Server Error: /games/index
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py", line 31, in index
+    return render(request, "lesapp2/index.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: lesapp2/index.html
+ERROR 2023-11-04 11:08:53,480 basehttp 6090 6169276416 "GET /games/index HTTP/1.1" 500 76844
+INFO 2023-11-04 11:09:02,771 autoreload 6090 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 11:09:02,963 autoreload 6116 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 11:09:03,205 basehttp 6116 6134673408 "GET /games/index HTTP/1.1" 200 133
+INFO 2023-11-04 12:04:24,061 autoreload 6116 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:04:24,241 autoreload 6189 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:04:46,652 autoreload 6189 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:04:46,831 autoreload 6205 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:04:59,133 autoreload 6205 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:04:59,300 autoreload 6213 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:05:04,469 autoreload 6213 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:05:04,652 autoreload 6219 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:05:12,907 autoreload 6219 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:05:13,069 autoreload 6228 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:05:29,447 autoreload 6228 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:05:29,621 autoreload 6234 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:05:31,766 autoreload 6234 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:05:31,944 autoreload 6237 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:05:48,285 autoreload 6237 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:05:48,461 autoreload 6246 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:05:49,617 autoreload 6246 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:05:49,788 autoreload 6249 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:05:57,032 autoreload 6249 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:05:57,192 autoreload 6255 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:05:59,350 autoreload 6255 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:05:59,503 autoreload 6261 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:06:03,655 autoreload 6261 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:06:03,813 autoreload 6266 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:06:04,961 autoreload 6266 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:06:05,127 autoreload 6269 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:06:22,532 autoreload 6269 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:06:22,714 autoreload 6275 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:06:25,853 autoreload 6275 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:06:26,012 autoreload 6281 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:06:28,184 autoreload 6281 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:06:28,366 autoreload 6282 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:06:33,549 autoreload 6282 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:06:33,726 autoreload 6290 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:06:37,904 autoreload 6290 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:06:38,077 autoreload 6294 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:06:40,218 autoreload 6294 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:06:40,380 autoreload 6300 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:06:42,499 autoreload 6300 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:06:42,663 autoreload 6301 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:06:45,798 autoreload 6301 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:06:45,955 autoreload 6307 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:06:52,168 autoreload 6307 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:06:52,325 autoreload 6313 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:06:55,471 autoreload 6313 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:06:55,652 autoreload 6319 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:06:59,811 autoreload 6319 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/models.py changed, reloading.
+INFO 2023-11-04 12:06:59,988 autoreload 6325 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:24:10,027 autoreload 6888 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:24:12,258 views 6888 6126088192 Index page accessed
+INFO 2023-11-04 12:24:12,259 basehttp 6888 6126088192 "GET / HTTP/1.1" 200 13
+INFO 2023-11-04 12:24:14,957 views 6888 6126088192 Index page accessed
+INFO 2023-11-04 12:24:14,958 basehttp 6888 6126088192 "GET / HTTP/1.1" 200 13
+INFO 2023-11-04 12:24:16,008 views 6888 6126088192 Index page accessed
+INFO 2023-11-04 12:24:16,009 basehttp 6888 6126088192 "GET / HTTP/1.1" 200 13
+INFO 2023-11-04 12:24:18,239 basehttp 6888 6126088192 "GET /games/last_coins HTTP/1.1" 200 162
+WARNING 2023-11-04 12:24:23,163 log 6888 6126088192 Not Found: /games/
+WARNING 2023-11-04 12:24:23,164 basehttp 6888 6126088192 "GET /games/ HTTP/1.1" 404 3559
+ERROR 2023-11-04 12:24:39,967 log 6888 6126088192 Internal Server Error: /games/fake_data
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesapp2.views.fake_author_and_post didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-11-04 12:24:39,967 basehttp 6888 6126088192 "GET /games/fake_data HTTP/1.1" 500 62705
+INFO 2023-11-04 12:27:05,188 autoreload 6888 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:27:05,357 autoreload 6951 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:27:08,505 autoreload 6951 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:27:08,686 autoreload 6958 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:27:11,843 autoreload 6958 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:27:11,995 autoreload 6965 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:27:13,115 autoreload 6965 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:27:13,258 autoreload 6966 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:27:16,400 autoreload 6966 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:27:16,562 autoreload 6969 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:27:19,712 autoreload 6969 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:27:19,856 autoreload 6973 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:27:20,970 autoreload 6973 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:27:21,121 autoreload 6974 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:27:26,299 autoreload 6974 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:27:26,449 autoreload 6982 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:27:45,842 autoreload 6982 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:27:46,013 autoreload 6991 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:27:53,218 autoreload 6991 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:27:53,390 autoreload 6999 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:27:54,495 autoreload 6999 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:27:54,643 autoreload 7000 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:27:55,748 autoreload 7000 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:27:55,896 autoreload 7001 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:28:03,082 autoreload 7001 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:28:03,268 autoreload 7011 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:28:11,500 autoreload 7011 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:28:11,674 autoreload 7017 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:28:20,909 autoreload 7017 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:28:21,097 autoreload 7025 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:28:25,258 autoreload 7025 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:28:25,428 autoreload 7031 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:28:31,535 autoreload 7031 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:28:31,706 autoreload 7039 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:28:34,868 basehttp 7039 6162673664 "GET /games/fake_data HTTP/1.1" 200 130
+INFO 2023-11-04 12:28:46,085 autoreload 7039 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:28:46,240 autoreload 7050 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:28:49,376 autoreload 7050 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:28:49,529 autoreload 7057 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:28:50,573 autoreload 7057 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:28:50,774 autoreload 7058 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:28:51,392 basehttp 7058 6161395712 "GET /games/fake_data HTTP/1.1" 200 2000
+INFO 2023-11-04 12:35:37,031 autoreload 7058 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:35:37,219 autoreload 7079 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:35:39,341 autoreload 7079 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:35:39,496 autoreload 7086 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:35:48,736 autoreload 7086 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:35:48,901 autoreload 7092 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:35:53,054 autoreload 7092 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:35:53,216 autoreload 7098 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:35:56,272 autoreload 7098 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:35:56,431 autoreload 7104 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:35:57,477 autoreload 7104 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:35:57,666 autoreload 7105 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:36:02,750 autoreload 7105 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:36:02,929 autoreload 7111 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:36:03,977 autoreload 7111 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:36:04,155 autoreload 7112 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:36:28,676 autoreload 7112 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:36:28,888 autoreload 7120 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:36:36,086 autoreload 7120 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:36:36,269 autoreload 7128 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:37:06,767 autoreload 7128 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:37:06,942 autoreload 7138 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:37:34,548 autoreload 7138 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:37:34,729 autoreload 7146 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:37:35,847 autoreload 7146 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:37:35,995 autoreload 7150 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:37:38,127 autoreload 7150 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:37:38,311 autoreload 7154 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:37:43,495 autoreload 7154 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:37:43,671 autoreload 7160 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:37:48,876 autoreload 7160 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:37:49,052 autoreload 7166 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:37:55,259 autoreload 7166 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:37:55,423 autoreload 7172 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:37:57,556 autoreload 7172 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:37:57,711 autoreload 7178 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:37:59,850 autoreload 7178 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:37:59,994 autoreload 7179 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:38:01,121 autoreload 7179 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:38:01,276 autoreload 7180 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:39:04,349 autoreload 7180 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:39:04,515 autoreload 7195 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:39:10,690 autoreload 7195 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:39:10,870 autoreload 7204 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:39:15,039 autoreload 7204 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:39:15,210 autoreload 7208 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:39:21,417 autoreload 7208 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:39:21,592 autoreload 7216 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:39:23,728 autoreload 7216 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:39:23,901 autoreload 7218 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:39:25,006 autoreload 7218 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:39:25,146 autoreload 7222 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:39:28,274 autoreload 7222 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:39:28,453 autoreload 7225 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:39:31,519 autoreload 7225 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:39:31,690 autoreload 7231 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:39:39,916 autoreload 7231 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:39:40,083 autoreload 7237 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:39:44,233 autoreload 7237 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:39:44,392 autoreload 7243 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:39:45,513 autoreload 7243 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:39:45,659 autoreload 7244 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:39:48,821 autoreload 7244 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:39:48,997 autoreload 7250 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:40:10,368 autoreload 7250 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:40:10,539 autoreload 7256 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:40:12,668 autoreload 7256 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:40:12,835 autoreload 7262 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:40:33,221 autoreload 7262 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:40:33,388 autoreload 7272 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:40:35,436 autoreload 7272 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:40:35,593 autoreload 7278 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:40:36,707 autoreload 7278 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:40:36,847 autoreload 7279 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:40:46,069 autoreload 7279 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:40:46,248 autoreload 7286 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:40:47,375 autoreload 7286 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:40:47,524 autoreload 7289 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:40:48,643 autoreload 7289 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:40:48,800 autoreload 7290 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:40:51,942 autoreload 7290 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:40:52,125 autoreload 7294 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:40:59,226 autoreload 7294 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:40:59,380 autoreload 7306 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:41:00,427 autoreload 7306 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:41:00,577 autoreload 7307 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:41:02,718 autoreload 7307 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:41:02,872 autoreload 7313 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:41:06,024 autoreload 7313 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:41:06,205 autoreload 7314 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:41:13,422 autoreload 7314 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:41:13,584 autoreload 7322 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:41:15,722 autoreload 7322 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:41:15,884 autoreload 7326 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:41:25,097 autoreload 7326 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:41:25,284 autoreload 7333 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:41:26,411 autoreload 7333 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:41:26,568 autoreload 7336 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:41:34,794 autoreload 7336 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:41:34,959 autoreload 7342 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:41:37,096 autoreload 7342 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:41:37,245 autoreload 7348 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:41:39,367 autoreload 7348 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:41:39,541 autoreload 7349 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:41:41,687 autoreload 7349 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:41:41,858 autoreload 7355 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:41:43,982 autoreload 7355 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:41:44,161 autoreload 7356 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:41:48,247 autoreload 7356 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:41:48,409 autoreload 7362 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:41:49,452 autoreload 7362 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:41:49,622 autoreload 7363 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:42:12,118 autoreload 7363 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:42:12,307 autoreload 7369 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:42:19,536 autoreload 7369 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:42:19,703 autoreload 7378 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:43:02,440 autoreload 7378 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:43:02,623 autoreload 7394 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:46:00,324 autoreload 7394 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:46:00,521 autoreload 7491 7944835840 Watching for file changes with StatReloader
+ERROR 2023-11-04 12:48:23,457 log 7491 6166278144 Internal Server Error: /games/fake_data
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesapp2.views.fake_author_and_post didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-11-04 12:48:23,458 basehttp 7491 6166278144 "GET /games/fake_data HTTP/1.1" 500 62705
+INFO 2023-11-04 12:49:08,607 autoreload 7491 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:49:08,796 autoreload 7567 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:49:09,837 autoreload 7567 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:49:10,007 autoreload 7570 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:49:13,067 autoreload 7570 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py changed, reloading.
+INFO 2023-11-04 12:49:13,237 autoreload 7574 7944835840 Watching for file changes with StatReloader
+ERROR 2023-11-04 12:49:16,124 log 7574 6132510720 Internal Server Error: /games/fake_data
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesapp2.views.fake_author_and_post didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-11-04 12:49:16,125 basehttp 7574 6132510720 "GET /games/fake_data HTTP/1.1" 500 62705
+ERROR 2023-11-04 12:49:17,235 log 7574 6132510720 Internal Server Error: /games/fake_data
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesapp2.views.fake_author_and_post didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-11-04 12:49:17,236 basehttp 7574 6132510720 "GET /games/fake_data HTTP/1.1" 500 62705
+INFO 2023-11-04 12:49:32,717 autoreload 7574 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/urls.py changed, reloading.
+INFO 2023-11-04 12:49:32,888 autoreload 7585 7944835840 Watching for file changes with StatReloader
+ERROR 2023-11-04 12:49:36,360 log 7585 6127284224 Internal Server Error: /games/fake_data
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: author_post() missing 1 required positional argument: 'author_id'
+ERROR 2023-11-04 12:49:36,361 basehttp 7585 6127284224 "GET /games/fake_data HTTP/1.1" 500 58218
+WARNING 2023-11-04 12:50:12,008 log 7585 6127284224 Not Found: /games/fake_data/3
+WARNING 2023-11-04 12:50:12,009 basehttp 7585 6127284224 "GET /games/fake_data/3 HTTP/1.1" 404 3592
+ERROR 2023-11-04 12:50:16,131 log 7585 6127284224 Internal Server Error: /games/fake_data
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: author_post() missing 1 required positional argument: 'author_id'
+ERROR 2023-11-04 12:50:16,132 basehttp 7585 6127284224 "GET /games/fake_data HTTP/1.1" 500 58218
+WARNING 2023-11-04 12:50:18,227 log 7585 6127284224 Not Found: /games/fake_data2
+WARNING 2023-11-04 12:50:18,228 basehttp 7585 6127284224 "GET /games/fake_data2 HTTP/1.1" 404 3589
+INFO 2023-11-04 12:55:33,455 autoreload 7585 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/urls.py changed, reloading.
+INFO 2023-11-04 12:55:33,625 autoreload 7623 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:55:35,758 autoreload 7623 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/urls.py changed, reloading.
+INFO 2023-11-04 12:55:35,936 autoreload 7629 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:55:42,122 autoreload 7629 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/urls.py changed, reloading.
+INFO 2023-11-04 12:55:42,300 autoreload 7636 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:55:53,529 autoreload 7636 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/urls.py changed, reloading.
+INFO 2023-11-04 12:55:53,703 autoreload 7647 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 12:55:55,756 autoreload 7647 7944835840 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/urls.py changed, reloading.
+INFO 2023-11-04 12:55:55,923 autoreload 7653 7944835840 Watching for file changes with StatReloader
+WARNING 2023-11-04 12:56:03,358 log 7653 6133805056 Not Found: /games/fake_data
+WARNING 2023-11-04 12:56:03,359 basehttp 7653 6133805056 "GET /games/fake_data HTTP/1.1" 404 3610
+WARNING 2023-11-04 12:56:05,458 log 7653 6133805056 Not Found: /games/fake_data/3
+WARNING 2023-11-04 12:56:05,459 basehttp 7653 6133805056 "GET /games/fake_data/3 HTTP/1.1" 404 3616
+ERROR 2023-11-04 12:56:22,067 log 7653 6133805056 Internal Server Error: /games/author_post/3
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py", line 54, in author_post
+    return render(request, "lesapp2/author_post.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 16: 'endfor', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-11-04 12:56:22,070 basehttp 7653 6133805056 "GET /games/author_post/3 HTTP/1.1" 500 161557
+ERROR 2023-11-04 12:57:17,475 log 7653 6133805056 Internal Server Error: /games/author_post/3
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py", line 54, in author_post
+    return render(request, "lesapp2/author_post.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 16: 'endfor', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-11-04 12:57:17,477 basehttp 7653 6133805056 "GET /games/author_post/3 HTTP/1.1" 500 161557
+ERROR 2023-11-04 12:57:58,104 log 7653 6133805056 Internal Server Error: /games/author_post/3
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py", line 54, in author_post
+    return render(request, "lesapp2/author_post.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 16: 'endfor', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-11-04 12:57:58,105 basehttp 7653 6133805056 "GET /games/author_post/3 HTTP/1.1" 500 161557
+ERROR 2023-11-04 13:00:52,369 log 7653 6133805056 Internal Server Error: /games/author_post/3
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesapp2/views.py", line 54, in author_post
+    return render(request, "lesapp2/author_post.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 16: 'endfor', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-11-04 13:00:52,370 basehttp 7653 6133805056 "GET /games/author_post/3 HTTP/1.1" 500 161557
+INFO 2023-11-04 13:01:51,602 basehttp 7653 6133805056 "GET /games/author_post/3 HTTP/1.1" 200 1416
+INFO 2023-11-04 13:01:53,431 basehttp 7653 6133805056 "GET /games/author_post/3 HTTP/1.1" 200 1416
+INFO 2023-11-04 13:02:00,375 basehttp 7653 6133805056 "GET /games/author_post/3 HTTP/1.1" 200 1416
+INFO 2023-11-04 13:02:01,816 basehttp 7653 6133805056 "GET /games/author_post/4 HTTP/1.1" 200 1416
+INFO 2023-11-04 13:05:58,096 basehttp 7653 6133805056 "GET /games/author_post/4 HTTP/1.1" 200 10796
+INFO 2023-11-04 13:06:05,424 basehttp 7653 6133805056 "GET /games/author_post/4 HTTP/1.1" 200 10796
+INFO 2023-11-04 13:06:06,602 basehttp 7653 6133805056 "GET /games/author_post/4 HTTP/1.1" 200 1416
+WARNING 2023-11-04 13:06:09,342 log 7653 6133805056 Not Found: /games/author_post/43
+WARNING 2023-11-04 13:06:09,342 basehttp 7653 6133805056 "GET /games/author_post/43 HTTP/1.1" 404 3683
+INFO 2023-11-04 13:06:12,081 basehttp 7653 6133805056 "GET /games/author_post/4 HTTP/1.1" 200 1416
+INFO 2023-11-04 13:06:12,907 basehttp 7653 6133805056 "GET /games/author_post/3 HTTP/1.1" 200 1416
+INFO 2023-11-04 13:06:13,260 basehttp 7653 6133805056 "GET /games/author_post/9 HTTP/1.1" 200 1416
+INFO 2023-11-04 13:06:16,133 basehttp 7653 6133805056 "GET /games/author_post/10 HTTP/1.1" 200 1416
+INFO 2023-11-04 13:06:18,481 basehttp 7653 6133805056 "GET /games/author_post/10 HTTP/1.1" 200 1416
+INFO 2023-11-04 13:06:18,976 basehttp 7653 6133805056 "GET /games/author_post/1 HTTP/1.1" 200 1416
+INFO 2023-11-04 13:10:01,336 basehttp 7653 6133805056 "GET /games/author_post/1 HTTP/1.1" 200 1876
+INFO 2023-11-04 13:10:04,626 basehttp 7653 6133805056 "GET /games/author_post/3 HTTP/1.1" 200 1876
+INFO 2023-11-04 13:18:47,872 basehttp 7653 6133805056 "GET /games/author_post/3 HTTP/1.1" 200 1876
+INFO 2023-11-04 13:18:52,103 basehttp 7653 6133805056 "GET /games/author_post/6 HTTP/1.1" 200 1876
+INFO 2023-11-04 13:18:55,250 basehttp 7653 6133805056 "GET /games/author_post/6 HTTP/1.1" 200 1876
+WARNING 2023-11-04 13:18:55,318 log 7653 6133805056 Not Found: /games/author_post/
+WARNING 2023-11-04 13:18:55,319 basehttp 7653 6133805056 "GET /games/author_post/ HTTP/1.1" 404 3619
+WARNING 2023-11-04 13:19:01,569 log 7653 6133805056 Not Found: /games/author_post/
+WARNING 2023-11-04 13:19:01,570 basehttp 7653 6133805056 "GET /games/author_post/ HTTP/1.1" 404 3619
+INFO 2023-11-04 13:19:02,716 basehttp 7653 6133805056 "GET /games/author_post/6 HTTP/1.1" 200 1876
+WARNING 2023-11-04 13:19:03,210 log 7653 6133805056 Not Found: /games/
+WARNING 2023-11-04 13:19:03,210 basehttp 7653 6133805056 "GET /games/ HTTP/1.1" 404 3583
+WARNING 2023-11-04 13:19:05,613 log 7653 6133805056 Not Found: /games/les/
+WARNING 2023-11-04 13:19:05,614 basehttp 7653 6133805056 "GET /games/les/ HTTP/1.1" 404 3595
+WARNING 2023-11-04 13:19:10,543 log 7653 6133805056 Not Found: /games/les3/
+WARNING 2023-11-04 13:19:10,544 basehttp 7653 6133805056 "GET /games/les3/ HTTP/1.1" 404 3598
+WARNING 2023-11-04 13:19:15,842 log 7653 6133805056 Not Found: /games/les3/
+WARNING 2023-11-04 13:19:15,842 basehttp 7653 6133805056 "GET /games/les3/ HTTP/1.1" 404 3598
+WARNING 2023-11-04 13:19:16,308 log 7653 6133805056 Not Found: /games/les3
+WARNING 2023-11-04 13:19:16,309 basehttp 7653 6133805056 "GET /games/les3 HTTP/1.1" 404 3595
+INFO 2023-11-04 13:21:00,985 autoreload 8006 7944835840 Watching for file changes with StatReloader
+INFO 2023-11-04 13:21:07,135 basehttp 8006 6122991616 "GET /les3/ HTTP/1.1" 200 489
+INFO 2023-11-04 13:21:07,236 basehttp 8006 6122991616 "GET /les3/ HTTP/1.1" 200 489
