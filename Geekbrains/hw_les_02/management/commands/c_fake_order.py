@@ -14,9 +14,9 @@ class Command (BaseCommand):
         for i in range(1, count + 1):
             order_1 = Order.objects.create()
             order_1.save()
-            order_1.customer = Customer.objects.get(name=f'Name_{random.randint(1, count)}')
-            p1=Product.objects.get(name=f'NameProd_{random.randint(1, count)}')
-            p2=Product.objects.get(name=f'NameProd_{random.randint(1, count)}')
+            order_1.customer = Customer.objects.get(name=f'Name_{random.randint(1, 10)}')
+            p1=Product.objects.get(name=f'NameProd_{random.randint(1, 10)}')
+            p2=Product.objects.get(name=f'NameProd_{random.randint(1, 10)}')
             order_1.products.add(p1, p2)
             total_price = p1.price * p1.quantity + p2.price * p2.quantity
             order_1.total_price = total_price

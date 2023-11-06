@@ -23,4 +23,5 @@ urlpatterns = [
     path('', include('myapp.urls')),
     path('games/', include('lesapp2.urls')),
     path('les3/', include('lectapp3.urls')),
+    path('homework/', include('hw_les_02.urls')),
 ]
