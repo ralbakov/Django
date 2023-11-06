@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+    <h3>Заказы пользователя {{ customer.name }}</h3>
+    Все продукты, заказанные пользователем {{ customer.name }}, без вывода повторений продукта начиная с {{ delta_or }} :
+    {% for product in products %}
+    <p> Наименование - {{ product.name }}; описание - {{ product.description }}; цена - {{ product.price }}</p>
+    {% endfor %}
+{% endblock %} 
