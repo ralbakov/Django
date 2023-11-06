@@ -7619,3 +7619,15 @@ INFO 2023-11-06 12:03:56,203 autoreload 2396 8090211072 /Users/ruslanalbakov/Doc
 INFO 2023-11-06 12:03:56,364 autoreload 2404 8090211072 Watching for file changes with StatReloader
 INFO 2023-11-06 12:04:00,527 autoreload 2404 8090211072 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/views.py changed, reloading.
 INFO 2023-11-06 12:04:00,692 autoreload 2410 8090211072 Watching for file changes with StatReloader
+INFO 2023-11-06 12:23:47,178 autoreload 2945 8090211072 Watching for file changes with StatReloader
+INFO 2023-11-06 12:23:53,026 views 2945 6132543488 Index page accessed
+INFO 2023-11-06 12:23:53,027 basehttp 2945 6132543488 "GET / HTTP/1.1" 200 13
+INFO 2023-11-06 12:23:56,696 views 2945 6132543488 Index page accessed
+INFO 2023-11-06 12:23:56,697 basehttp 2945 6132543488 "GET / HTTP/1.1" 200 13
+WARNING 2023-11-06 12:23:58,740 log 2945 6132543488 Not Found: /homework/customer/28/
+WARNING 2023-11-06 12:23:58,741 basehttp 2945 6132543488 "GET /homework/customer/28/ HTTP/1.1" 404 3412
+WARNING 2023-11-06 12:24:01,985 log 2945 6132543488 Not Found: /homework/
+WARNING 2023-11-06 12:24:01,986 basehttp 2945 6132543488 "GET /homework/ HTTP/1.1" 404 3376
+WARNING 2023-11-06 12:24:07,840 log 2945 6132543488 Not Found: /homework/customer/28/
+WARNING 2023-11-06 12:24:07,840 basehttp 2945 6132543488 "GET /homework/customer/28/ HTTP/1.1" 404 3412
+INFO 2023-11-06 12:24:12,523 basehttp 2945 6132543488 "GET /homework/customer/28/4 HTTP/1.1" 200 1086
