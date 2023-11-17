@@ -45,7 +45,9 @@ INSTALLED_APPS = [
     'lesapp2',
     'lectapp3',
     'hw_les_01',
-    'hw_les_02',    
+    'hw_les_02',
+    'lectapp4',
+    'lectapp5',
 ]
 
 MIDDLEWARE = [
@@ -114,9 +116,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Moscow'
 
 USE_I18N = True
 
@@ -127,6 +129,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
@@ -166,6 +171,16 @@ LOGGING = {
             'propagate': True,
         },
         'hw_les_01': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'lectapp4': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'hw_les_02': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,

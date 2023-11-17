@@ -16,6 +16,10 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=8, decimal_places=2)
     quantity = models.DecimalField(max_digits=8, decimal_places=3)
     date_add = models.DateTimeField(auto_now_add=True)
+    image = models.ImageField(upload_to='hw_les_02')
+
+    def __str__(self) -> str:
+        return f'{self.name}'
 
 class Order(models.Model):
     customer = models.ForeignKey(Customer, on_delete=models.CASCADE)
