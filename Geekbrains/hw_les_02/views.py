@@ -35,7 +35,7 @@ def product_form(request):
             product.price = form.cleaned_data['price']
             product.quantity = form.cleaned_data['quantity']
             product.date_add = form.cleaned_data['date_add']
-            image = request.FILES['image']
+            image = request.FILES['image'] # image = request.cleaned_data['image'] если так прошем появляется ошибка AttributeError: 'WSGIRequest' object has no attribute 'cleaned_data'
             fs = FileSystemStorage()
             fs.save(image.name, image)
             product.image = image
