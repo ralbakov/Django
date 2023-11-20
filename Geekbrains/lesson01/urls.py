@@ -28,6 +28,8 @@ urlpatterns = [
     path('les3/', include('lectapp3.urls')),
     path('les4/', include('lectapp4.urls')),
     path('homework/', include('hw_les_02.urls')),
+    # path('__debug__/', include('debug_toolbar.urls')),
+    path('les6/', include('lectapp6.urls')),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -11995,3 +11995,172 @@ INFO 2023-11-16 21:47:40,782 basehttp 3461 6132133888 "GET /homework/customer/28
 WARNING 2023-11-16 21:47:41,042 log 3461 6132133888 Not Found: /homework/customer/
 WARNING 2023-11-16 21:47:41,043 basehttp 3461 6132133888 "GET /homework/customer/ HTTP/1.1" 404 4344
 INFO 2023-11-16 21:47:52,548 basehttp 3461 6132133888 "GET /homework/product/ HTTP/1.1" 200 2447
+INFO 2023-11-17 20:13:51,389 autoreload 1574 7967203008 Watching for file changes with StatReloader
+INFO 2023-11-17 20:13:54,918 views 1574 6122942464 Index page accessed
+INFO 2023-11-17 20:13:54,918 basehttp 1574 6122942464 "GET / HTTP/1.1" 200 13
+INFO 2023-11-17 20:13:58,318 views 1574 6122942464 Index page accessed
+INFO 2023-11-17 20:13:58,319 basehttp 1574 6122942464 "GET / HTTP/1.1" 200 13
+INFO 2023-11-17 20:14:00,540 views 1574 6122942464 Index page accessed
+INFO 2023-11-17 20:14:00,541 basehttp 1574 6122942464 "GET / HTTP/1.1" 200 13
+INFO 2023-11-17 20:14:07,557 basehttp 1574 6122942464 "GET /homework/customer/28/3 HTTP/1.1" 200 922
+WARNING 2023-11-17 20:14:10,921 log 1574 6122942464 Not Found: /homework
+WARNING 2023-11-17 20:14:10,921 basehttp 1574 6122942464 "GET /homework HTTP/1.1" 404 4004
+WARNING 2023-11-17 20:14:20,498 log 1574 6122942464 Not Found: /prefix/
+WARNING 2023-11-17 20:14:20,498 basehttp 1574 6122942464 "GET /prefix/ HTTP/1.1" 404 4001
+INFO 2023-11-17 20:14:29,078 basehttp 1574 6122942464 "GET /homework/customer/28/3 HTTP/1.1" 200 922
+INFO 2023-11-17 20:14:30,244 basehttp 1574 6122942464 "GET /homework/product/ HTTP/1.1" 200 2447
+ERROR 2023-11-17 20:15:22,822 log 1574 6122942464 Internal Server Error: /homework/product/
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/views.py", line 38, in product_form
+    image = request.cleaned_data['image'] # image = request.cleaned_data['image'] если так прошем появляется ошибка
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'cleaned_data'
+ERROR 2023-11-17 20:15:22,823 basehttp 1574 6122942464 "POST /homework/product/ HTTP/1.1" 500 65625
+INFO 2023-11-17 20:16:39,323 autoreload 1574 7967203008 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/views.py changed, reloading.
+INFO 2023-11-17 20:16:39,503 autoreload 1625 7967203008 Watching for file changes with StatReloader
+INFO 2023-11-17 20:18:13,161 autoreload 1625 7967203008 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/views.py changed, reloading.
+INFO 2023-11-17 20:18:13,336 autoreload 1651 7967203008 Watching for file changes with StatReloader
+INFO 2023-11-20 20:23:52,769 autoreload 1161 8023154368 Watching for file changes with StatReloader
+INFO 2023-11-20 20:47:27,179 autoreload 1507 8023154368 Watching for file changes with StatReloader
+INFO 2023-11-20 20:47:36,618 views 1507 6194065408 Index page accessed
+INFO 2023-11-20 20:47:36,631 basehttp 1507 6194065408 "GET / HTTP/1.1" 200 13
+WARNING 2023-11-20 20:47:36,707 log 1507 6194065408 Not Found: /favicon.ico
+WARNING 2023-11-20 20:47:36,707 basehttp 1507 6194065408 "GET /favicon.ico HTTP/1.1" 404 14255
+INFO 2023-11-20 20:48:07,293 views 1507 6194065408 Index page accessed
+INFO 2023-11-20 20:48:07,308 basehttp 1507 6194065408 "GET / HTTP/1.1" 200 13
+INFO 2023-11-20 20:48:13,713 views 1507 6194065408 Index page accessed
+INFO 2023-11-20 20:48:13,732 basehttp 1507 6194065408 "GET / HTTP/1.1" 200 13
+WARNING 2023-11-20 20:48:14,358 log 1507 6194065408 Not Found: /get_items/232
+WARNING 2023-11-20 20:48:14,358 basehttp 1507 6194065408 "GET /get_items/232 HTTP/1.1" 404 14265
+INFO 2023-11-20 20:48:14,371 basehttp 1507 6194065408 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-11-20 20:48:14,373 basehttp 1507 6227718144 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-11-20 20:48:14,373 basehttp 1507 6210891776 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-11-20 20:48:14,380 basehttp 1507 6194065408 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+ERROR 2023-11-20 20:48:24,539 views 1507 6194065408 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/myapp/views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-11-20 20:48:24,555 basehttp 1507 6194065408 "GET /about/ HTTP/1.1" 200 27
+INFO 2023-11-20 20:48:25,024 basehttp 1507 6194065408 "GET /about HTTP/1.1" 301 0
+ERROR 2023-11-20 20:48:25,035 views 1507 6210891776 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/myapp/views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-11-20 20:48:25,045 basehttp 1507 6210891776 "GET /about/ HTTP/1.1" 200 27
+ERROR 2023-11-20 20:48:28,968 views 1507 6210891776 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/myapp/views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-11-20 20:48:28,979 basehttp 1507 6210891776 "GET /about/ HTTP/1.1" 200 27
+INFO 2023-11-20 20:48:29,415 basehttp 1507 6210891776 "GET /admin/lectapp5/product/ HTTP/1.1" 302 0
+INFO 2023-11-20 20:48:29,448 basehttp 1507 6210891776 "GET /admin/login/?next=/admin/lectapp5/product/ HTTP/1.1" 200 14493
+INFO 2023-11-20 20:48:29,458 basehttp 1507 6227718144 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-11-20 20:48:29,460 basehttp 1507 6194065408 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-11-20 20:48:29,461 basehttp 1507 6210891776 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-11-20 20:48:29,461 basehttp 1507 6278197248 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-11-20 20:48:29,461 basehttp 1507 6244544512 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-11-20 20:48:29,462 basehttp 1507 6227718144 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2023-11-20 20:48:29,462 basehttp 1507 6261370880 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-11-20 20:48:29,767 views 1507 6210891776 Index page accessed
+INFO 2023-11-20 20:48:29,782 basehttp 1507 6210891776 "GET / HTTP/1.1" 200 13
+INFO 2023-11-20 20:48:31,607 basehttp 1507 6210891776 "GET /games/last_coins HTTP/1.1" 200 10883
+INFO 2023-11-20 20:48:46,813 basehttp 1507 6210891776 "GET /__debug__/render_panel/?store_id=2b30f2878ae34211bb25d4503fa841d4&panel_id=SQLPanel HTTP/1.1" 200 6015
+INFO 2023-11-20 20:49:04,749 basehttp 1507 6210891776 "GET /games/last_coins HTTP/1.1" 200 10883
+WARNING 2023-11-20 20:49:07,505 log 1507 6210891776 Not Found: /games/les3
+WARNING 2023-11-20 20:49:07,506 basehttp 1507 6210891776 "GET /games/les3 HTTP/1.1" 404 14896
+INFO 2023-11-20 20:49:14,188 basehttp 1507 6210891776 "GET /games/last_coins HTTP/1.1" 200 10883
+INFO 2023-11-20 20:49:14,201 basehttp 1507 6210891776 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-11-20 20:49:15,239 basehttp 1507 6210891776 "GET /games/coin HTTP/1.1" 200 10841
+INFO 2023-11-20 20:49:15,252 basehttp 1507 6210891776 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-11-20 20:49:15,253 basehttp 1507 6194065408 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-11-20 20:49:15,253 basehttp 1507 6227718144 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-11-20 20:49:19,805 basehttp 1507 6210891776 "GET /__debug__/render_panel/?store_id=7a7e8f1ee05241bbbddd69189b0e7051&panel_id=SQLPanel HTTP/1.1" 200 3506
+INFO 2023-11-20 20:49:31,778 basehttp 1507 6210891776 "GET /__debug__/render_panel/?store_id=7a7e8f1ee05241bbbddd69189b0e7051&panel_id=TimerPanel HTTP/1.1" 200 2263
+INFO 2023-11-20 20:49:31,781 basehttp 1507 6210891776 "GET /static/debug_toolbar/js/timer.js HTTP/1.1" 200 3686
+INFO 2023-11-20 20:49:52,784 basehttp 1507 6210891776 "GET /__debug__/render_panel/?store_id=7a7e8f1ee05241bbbddd69189b0e7051&panel_id=HistoryPanel HTTP/1.1" 200 28915
+INFO 2023-11-20 20:49:52,789 basehttp 1507 6210891776 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3330
+INFO 2023-11-20 20:50:04,271 basehttp 1507 6210891776 "GET /__debug__/history_sidebar/?store_id=d1a955f5235348f2a40713796bc1be3f&exclude_history=True HTTP/1.1" 200 11745
+INFO 2023-11-20 20:50:05,896 basehttp 1507 6210891776 "GET /__debug__/history_sidebar/?store_id=d1a955f5235348f2a40713796bc1be3f&exclude_history=True HTTP/1.1" 200 11745
+INFO 2023-11-20 20:50:18,807 basehttp 1507 6210891776 "GET /__debug__/history_sidebar/?store_id=d1a955f5235348f2a40713796bc1be3f&exclude_history=True HTTP/1.1" 200 11745
+INFO 2023-11-20 20:50:32,221 basehttp 1507 6210891776 "GET /games/coin HTTP/1.1" 200 10841
+INFO 2023-11-20 20:50:32,231 basehttp 1507 6210891776 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-11-20 20:50:32,231 basehttp 1507 6194065408 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-11-20 20:50:32,242 basehttp 1507 6210891776 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-11-20 20:50:32,245 basehttp 1507 6210891776 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-11-20 20:50:33,342 views 1507 6210891776 Index page accessed
+INFO 2023-11-20 20:50:33,349 basehttp 1507 6210891776 "GET / HTTP/1.1" 200 13
+WARNING 2023-11-20 20:50:33,962 log 1507 6210891776 Not Found: /lectapp5/product/
+WARNING 2023-11-20 20:50:33,963 basehttp 1507 6210891776 "GET /lectapp5/product/ HTTP/1.1" 404 14281
+INFO 2023-11-20 20:50:44,318 basehttp 1507 6210891776 "GET /les3/ HTTP/1.1" 200 10642
+INFO 2023-11-20 20:50:44,331 basehttp 1507 6194065408 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-11-20 20:50:44,331 basehttp 1507 6210891776 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-11-20 20:50:44,331 basehttp 1507 6227718144 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-11-20 20:50:44,334 basehttp 1507 6210891776 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-11-20 20:50:44,592 views 1507 6210891776 Index page accessed
+INFO 2023-11-20 20:50:44,605 basehttp 1507 6210891776 "GET / HTTP/1.1" 200 13
+INFO 2023-11-20 20:50:44,836 basehttp 1507 6210891776 "GET /homework/customer/28/3 HTTP/1.1" 200 11098
+WARNING 2023-11-20 20:50:44,888 log 1507 6210891776 Not Found: /homework/
+WARNING 2023-11-20 20:50:44,888 basehttp 1507 6210891776 "GET /homework/ HTTP/1.1" 404 14559
+INFO 2023-11-20 20:50:55,344 basehttp 1507 6210891776 "GET /homework/product/ HTTP/1.1" 200 12632
+INFO 2023-11-20 20:50:58,678 basehttp 1507 6210891776 "GET /__debug__/render_panel/?store_id=4cd1de79850d4eb69401d130d0b77498&panel_id=SQLPanel HTTP/1.1" 200 30203
+INFO 2023-11-20 20:51:18,219 basehttp 1507 6210891776 "GET /__debug__/render_panel/?store_id=4cd1de79850d4eb69401d130d0b77498&panel_id=HistoryPanel HTTP/1.1" 200 42067
+INFO 2023-11-20 20:51:18,224 basehttp 1507 6210891776 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 2023-11-20 20:51:19,051 basehttp 1507 6210891776 "GET /__debug__/render_panel/?store_id=4cd1de79850d4eb69401d130d0b77498&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2023-11-20 20:51:20,312 basehttp 1507 6210891776 "GET /__debug__/render_panel/?store_id=4cd1de79850d4eb69401d130d0b77498&panel_id=TimerPanel HTTP/1.1" 200 2265
+INFO 2023-11-20 20:51:20,316 basehttp 1507 6210891776 "GET /static/debug_toolbar/js/timer.js HTTP/1.1" 304 0
+INFO 2023-11-20 20:51:27,886 basehttp 1507 6210891776 "GET /__debug__/render_panel/?store_id=4cd1de79850d4eb69401d130d0b77498&panel_id=SignalsPanel HTTP/1.1" 200 2346
+INFO 2023-11-20 20:51:41,149 basehttp 1507 6210891776 "GET /__debug__/render_panel/?store_id=4cd1de79850d4eb69401d130d0b77498&panel_id=RequestPanel HTTP/1.1" 200 1400
+INFO 2023-11-20 20:52:22,454 basehttp 1507 6210891776 "GET /__debug__/render_panel/?store_id=4cd1de79850d4eb69401d130d0b77498&panel_id=TemplatesPanel HTTP/1.1" 200 36438
+INFO 2023-11-20 20:53:03,059 basehttp 1507 6210891776 "GET /__debug__/render_panel/?store_id=4cd1de79850d4eb69401d130d0b77498&panel_id=StaticFilesPanel HTTP/1.1" 200 34219
+INFO 2023-11-20 21:22:57,784 autoreload 2054 8023154368 Watching for file changes with StatReloader
+INFO 2023-11-20 21:23:01,636 views 2054 6130200576 Index page accessed
+INFO 2023-11-20 21:23:01,647 basehttp 2054 6130200576 "GET / HTTP/1.1" 200 13
+INFO 2023-11-20 21:23:04,924 views 2054 6130200576 Index page accessed
+INFO 2023-11-20 21:23:04,938 basehttp 2054 6130200576 "GET / HTTP/1.1" 200 13
+INFO 2023-11-20 21:23:05,707 basehttp 2054 6130200576 "GET /les3/ HTTP/1.1" 200 10643
+INFO 2023-11-20 21:23:05,719 basehttp 2054 6130200576 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-11-20 21:23:05,720 basehttp 2054 6147026944 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-11-20 21:23:05,720 basehttp 2054 6163853312 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-11-20 21:23:05,723 basehttp 2054 6130200576 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2023-11-20 21:23:07,790 log 2054 6130200576 Not Found: /les6
+WARNING 2023-11-20 21:23:07,790 basehttp 2054 6130200576 "GET /les6 HTTP/1.1" 404 14334
+WARNING 2023-11-20 21:23:44,234 log 2054 6130200576 Not Found: /les6/
+WARNING 2023-11-20 21:23:44,234 basehttp 2054 6130200576 "GET /les6/ HTTP/1.1" 404 14747
+INFO 2023-11-20 21:24:23,761 basehttp 2054 6130200576 "GET /les6/db HTTP/1.1" 301 0
+INFO 2023-11-20 21:24:23,833 basehttp 2054 6130200576 "GET /les6/db/ HTTP/1.1" 200 11039
+INFO 2023-11-20 21:24:23,843 basehttp 2054 6130200576 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-11-20 21:24:23,844 basehttp 2054 6147026944 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-11-20 21:24:23,844 basehttp 2054 6163853312 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-11-20 21:24:23,848 basehttp 2054 6130200576 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-11-20 21:25:31,300 basehttp 2054 6130200576 "GET /__debug__/render_panel/?store_id=3b3a3ddee047430a986e7ea7ff0bc2f2&panel_id=SQLPanel HTTP/1.1" 200 4817
+INFO 2023-11-20 21:26:19,229 basehttp 2054 6130200576 "GET /les6/view/ HTTP/1.1" 200 11026
+INFO 2023-11-20 21:26:54,496 basehttp 2054 6130200576 "GET /les6/view/ HTTP/1.1" 200 11453
+INFO 2023-11-20 21:26:56,636 basehttp 2054 6130200576 "GET /__debug__/render_panel/?store_id=939534c7305a4312b4b0a261ad4f5105&panel_id=ProfilingPanel HTTP/1.1" 200 41726
+INFO 2023-11-20 21:27:25,606 basehttp 2054 6130200576 "GET /les6/view/ HTTP/1.1" 200 11453
+INFO 2023-11-20 21:27:29,948 basehttp 2054 6130200576 "GET /les6/template HTTP/1.1" 301 0
+INFO 2023-11-20 21:27:30,120 basehttp 2054 6130200576 "GET /les6/template/ HTTP/1.1" 200 11437
+INFO 2023-11-20 21:27:37,697 basehttp 2054 6130200576 "GET /__debug__/render_panel/?store_id=94558eda4d574ba18c3b40127bab1dde&panel_id=SQLPanel HTTP/1.1" 200 24100
+INFO 2023-11-20 21:27:55,398 basehttp 2054 6130200576 "POST /__debug__/sql_select/ HTTP/1.1" 200 8256612
+INFO 2023-11-20 21:28:05,524 basehttp 2054 6130200576 "POST /__debug__/sql_explain/ HTTP/1.1" 200 1748
+INFO 2023-11-20 21:28:26,601 basehttp 2054 6130200576 "GET /__debug__/render_panel/?store_id=94558eda4d574ba18c3b40127bab1dde&panel_id=TemplatesPanel HTTP/1.1" 200 6781
+INFO 2023-11-20 21:28:57,795 basehttp 2054 6130200576 "GET /__debug__/render_panel/?store_id=94558eda4d574ba18c3b40127bab1dde&panel_id=TimerPanel HTTP/1.1" 200 2267
+INFO 2023-11-20 21:28:57,799 basehttp 2054 6130200576 "GET /static/debug_toolbar/js/timer.js HTTP/1.1" 304 0
+INFO 2023-11-20 21:29:05,707 basehttp 2054 6130200576 "GET /__debug__/render_panel/?store_id=94558eda4d574ba18c3b40127bab1dde&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2023-11-20 21:29:08,092 basehttp 2054 6130200576 "GET /__debug__/render_panel/?store_id=94558eda4d574ba18c3b40127bab1dde&panel_id=ProfilingPanel HTTP/1.1" 200 32445
+INFO 2023-11-20 21:29:53,591 basehttp 2054 6130200576 "GET /__debug__/render_panel/?store_id=94558eda4d574ba18c3b40127bab1dde&panel_id=HistoryPanel HTTP/1.1" 200 20565
+INFO 2023-11-20 21:29:53,595 basehttp 2054 6130200576 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 2023-11-20 21:30:00,334 basehttp 2054 6130200576 "GET /__debug__/history_sidebar/?store_id=9378a11d8ed84c0596a73ddb93bd5241&exclude_history=True HTTP/1.1" 200 12369
+INFO 2023-11-20 21:30:01,026 basehttp 2054 6130200576 "GET /__debug__/history_sidebar/?store_id=9378a11d8ed84c0596a73ddb93bd5241&exclude_history=True HTTP/1.1" 200 12369
+INFO 2023-11-20 21:30:01,251 basehttp 2054 6130200576 "GET /__debug__/history_sidebar/?store_id=9378a11d8ed84c0596a73ddb93bd5241&exclude_history=True HTTP/1.1" 200 12369
