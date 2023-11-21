@@ -12164,3 +12164,4 @@ INFO 2023-11-20 21:29:53,595 basehttp 2054 6130200576 "GET /static/debug_toolbar
 INFO 2023-11-20 21:30:00,334 basehttp 2054 6130200576 "GET /__debug__/history_sidebar/?store_id=9378a11d8ed84c0596a73ddb93bd5241&exclude_history=True HTTP/1.1" 200 12369
 INFO 2023-11-20 21:30:01,026 basehttp 2054 6130200576 "GET /__debug__/history_sidebar/?store_id=9378a11d8ed84c0596a73ddb93bd5241&exclude_history=True HTTP/1.1" 200 12369
 INFO 2023-11-20 21:30:01,251 basehttp 2054 6130200576 "GET /__debug__/history_sidebar/?store_id=9378a11d8ed84c0596a73ddb93bd5241&exclude_history=True HTTP/1.1" 200 12369
+INFO 2023-11-20 23:16:23,516 autoreload 2722 8023154368 Watching for file changes with StatReloader

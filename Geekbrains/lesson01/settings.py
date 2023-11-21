@@ -32,7 +32,7 @@ CSRF_COOKIE_SECURE = True # добавить в реальном проекте
 ALLOWED_HOSTS = [
     '127.0.0.1',
     '192.168.1.5',
-    'ralbakov.pythonanywhere.com'
+    'ralbakov.pythonanywhere.com',
 ]
 
 INTERNAL_IPS = [
