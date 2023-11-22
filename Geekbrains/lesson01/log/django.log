@@ -12165,3 +12165,1307 @@ INFO 2023-11-20 21:30:00,334 basehttp 2054 6130200576 "GET /__debug__/history_si
 INFO 2023-11-20 21:30:01,026 basehttp 2054 6130200576 "GET /__debug__/history_sidebar/?store_id=9378a11d8ed84c0596a73ddb93bd5241&exclude_history=True HTTP/1.1" 200 12369
 INFO 2023-11-20 21:30:01,251 basehttp 2054 6130200576 "GET /__debug__/history_sidebar/?store_id=9378a11d8ed84c0596a73ddb93bd5241&exclude_history=True HTTP/1.1" 200 12369
 INFO 2023-11-20 23:16:23,516 autoreload 2722 8023154368 Watching for file changes with StatReloader
+INFO 2023-11-22 22:22:07,584 autoreload 4391 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:22:12,261 views 4391 6193819648 Index page accessed
+ERROR 2023-11-22 22:22:12,291 log 4391 6193819648 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/debug_toolbar/middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/debug_toolbar/toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+ERROR 2023-11-22 22:22:12,293 basehttp 4391 6193819648 "GET / HTTP/1.1" 500 133244
+ERROR 2023-11-22 22:22:12,342 log 4391 6193819648 Internal Server Error: /apple-touch-icon-precomposed.png
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/debug_toolbar/middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/debug_toolbar/toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+ERROR 2023-11-22 22:22:12,343 basehttp 4391 6193819648 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 500 132025
+ERROR 2023-11-22 22:22:12,362 log 4391 6193819648 Internal Server Error: /apple-touch-icon.png
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/debug_toolbar/middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/debug_toolbar/toolbar.py", line 82, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+ERROR 2023-11-22 22:22:12,363 basehttp 4391 6193819648 "GET /apple-touch-icon.png HTTP/1.1" 500 131917
+INFO 2023-11-22 22:23:24,808 autoreload 4422 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:23:27,783 views 4422 6189936640 Index page accessed
+INFO 2023-11-22 22:23:27,800 basehttp 4422 6189936640 "GET / HTTP/1.1" 200 13
+INFO 2023-11-22 22:23:33,205 views 4422 6189936640 Index page accessed
+INFO 2023-11-22 22:23:33,217 basehttp 4422 6189936640 "GET / HTTP/1.1" 200 13
+INFO 2023-11-22 22:23:34,598 basehttp 4422 6189936640 "GET /homework/product/ HTTP/1.1" 200 13061
+INFO 2023-11-22 22:23:34,609 basehttp 4422 6189936640 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-11-22 22:23:34,610 basehttp 4422 6189936640 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-11-22 22:23:34,618 basehttp 4422 6189936640 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-11-22 22:23:34,624 basehttp 4422 6189936640 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2023-11-22 22:23:41,132 log 4422 6189936640 Not Found: /homework/product/3
+WARNING 2023-11-22 22:23:41,133 basehttp 4422 6189936640 "GET /homework/product/3 HTTP/1.1" 404 15127
+WARNING 2023-11-22 22:23:57,275 log 4422 6189936640 Not Found: /homework/product/customer/23
+WARNING 2023-11-22 22:23:57,276 basehttp 4422 6189936640 "GET /homework/product/customer/23 HTTP/1.1" 404 15167
+WARNING 2023-11-22 22:24:00,378 log 4422 6189936640 Not Found: /homework/product/customer/23/3
+WARNING 2023-11-22 22:24:00,378 basehttp 4422 6189936640 "GET /homework/product/customer/23/3 HTTP/1.1" 404 15175
+WARNING 2023-11-22 22:24:07,485 log 4422 6189936640 Not Found: /homework/product/customer/23/3/4
+WARNING 2023-11-22 22:24:07,485 basehttp 4422 6189936640 "GET /homework/product/customer/23/3/4 HTTP/1.1" 404 15183
+WARNING 2023-11-22 22:24:14,055 log 4422 6189936640 Not Found: /homework/product/customer/1
+WARNING 2023-11-22 22:24:14,056 basehttp 4422 6189936640 "GET /homework/product/customer/1 HTTP/1.1" 404 15163
+WARNING 2023-11-22 22:24:17,676 log 4422 6189936640 Not Found: /homework/product/customer/1/2
+WARNING 2023-11-22 22:24:17,676 basehttp 4422 6189936640 "GET /homework/product/customer/1/2 HTTP/1.1" 404 15171
+WARNING 2023-11-22 22:24:27,964 log 4422 6189936640 Not Found: /homework/customer/1/2
+WARNING 2023-11-22 22:24:27,964 basehttp 4422 6189936640 "GET /homework/customer/1/2 HTTP/1.1" 404 14772
+WARNING 2023-11-22 22:24:38,311 log 4422 6189936640 Not Found: /homework/customer/1/
+WARNING 2023-11-22 22:24:38,311 basehttp 4422 6189936640 "GET /homework/customer/1/ HTTP/1.1" 404 15135
+WARNING 2023-11-22 22:24:43,962 log 4422 6189936640 Not Found: /homework/customer/1/
+WARNING 2023-11-22 22:24:43,963 basehttp 4422 6189936640 "GET /homework/customer/1/ HTTP/1.1" 404 15135
+INFO 2023-11-22 22:24:57,172 views 4422 6189936640 Index page accessed
+INFO 2023-11-22 22:24:57,190 basehttp 4422 6189936640 "GET / HTTP/1.1" 200 13
+INFO 2023-11-22 22:24:58,302 basehttp 4422 6189936640 "GET /les3/ HTTP/1.1" 200 11070
+INFO 2023-11-22 22:25:02,203 basehttp 4422 6189936640 "GET /les3/ HTTP/1.1" 200 11070
+INFO 2023-11-22 22:25:03,060 basehttp 4422 6189936640 "GET /les6/template/ HTTP/1.1" 200 11437
+INFO 2023-11-22 22:25:06,969 basehttp 4422 6189936640 "GET /les6/template/ HTTP/1.1" 200 11437
+INFO 2023-11-22 22:25:08,256 basehttp 4422 6189936640 "GET /les6/view/ HTTP/1.1" 200 11453
+INFO 2023-11-22 22:25:15,045 basehttp 4422 6189936640 "GET /__debug__/render_panel/?store_id=83bac1d209b64acf8f5f41ac180c2f67&panel_id=RequestPanel HTTP/1.1" 200 1531
+INFO 2023-11-22 22:25:15,683 basehttp 4422 6189936640 "GET /__debug__/render_panel/?store_id=83bac1d209b64acf8f5f41ac180c2f67&panel_id=SQLPanel HTTP/1.1" 200 6521
+INFO 2023-11-22 22:25:23,617 basehttp 4422 6189936640 "GET /les6/view/ HTTP/1.1" 200 11469
+WARNING 2023-11-22 22:25:24,020 log 4422 6189936640 Not Found: /les6/
+WARNING 2023-11-22 22:25:24,020 basehttp 4422 6189936640 "GET /les6/ HTTP/1.1" 404 15190
+INFO 2023-11-22 22:26:26,692 views 4422 6189936640 Index page accessed
+INFO 2023-11-22 22:26:26,705 basehttp 4422 6189936640 "GET / HTTP/1.1" 200 13
+INFO 2023-11-22 22:26:27,529 basehttp 4422 6189936640 "GET /admin/lectapp5/product/ HTTP/1.1" 200 11251
+INFO 2023-11-22 22:26:27,536 basehttp 4422 6189936640 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2023-11-22 22:26:29,605 basehttp 4422 6189936640 "GET /admin/ HTTP/1.1" 200 11190
+INFO 2023-11-22 22:26:31,849 basehttp 4422 6189936640 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14885
+INFO 2023-11-22 22:26:31,860 basehttp 4422 6189936640 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-11-22 22:26:31,861 basehttp 4422 6223589376 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-11-22 22:26:31,861 basehttp 4422 6206763008 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-11-22 22:26:41,752 basehttp 4422 6189936640 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 11171
+INFO 2023-11-22 22:26:45,178 basehttp 4422 6206763008 "GET /admin/ HTTP/1.1" 200 11190
+INFO 2023-11-22 22:26:45,982 basehttp 4422 6223589376 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14885
+INFO 2023-11-22 22:26:58,363 basehttp 4422 6223589376 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 15150
+INFO 2023-11-22 22:27:21,804 basehttp 4422 6223589376 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 11171
+INFO 2023-11-22 22:27:26,207 basehttp 4422 6189936640 "GET /admin/ HTTP/1.1" 200 11190
+INFO 2023-11-22 22:27:27,034 basehttp 4422 6189936640 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14885
+INFO 2023-11-22 22:28:44,415 autoreload 4570 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:28:50,019 basehttp 4570 6201552896 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14885
+INFO 2023-11-22 22:28:55,625 basehttp 4570 6201552896 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 11171
+INFO 2023-11-22 22:29:09,384 basehttp 4570 6201552896 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14885
+INFO 2023-11-22 22:29:27,375 basehttp 4570 6201552896 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 15150
+INFO 2023-11-22 22:29:38,918 basehttp 4570 6201552896 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 15150
+INFO 2023-11-22 22:29:51,163 basehttp 4570 6201552896 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 11171
+INFO 2023-11-22 22:29:51,989 basehttp 4570 6201552896 "GET /admin/ HTTP/1.1" 200 11190
+INFO 2023-11-22 22:29:52,654 basehttp 4570 6201552896 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14885
+INFO 2023-11-22 22:30:06,170 basehttp 4570 6201552896 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 11171
+INFO 2023-11-22 22:30:17,188 basehttp 4570 6201552896 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:30:17,219 basehttp 4570 6201552896 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14869
+INFO 2023-11-22 22:30:23,621 basehttp 4570 6201552896 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:30:23,634 basehttp 4570 6201552896 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:30:23,648 basehttp 4570 6201552896 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14867
+INFO 2023-11-22 22:30:29,949 basehttp 4570 6201552896 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:30:29,964 basehttp 4570 6201552896 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:30:29,980 basehttp 4570 6201552896 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14867
+INFO 2023-11-22 22:31:42,126 autoreload 4687 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:31:47,002 basehttp 4687 6123974656 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14869
+INFO 2023-11-22 22:31:52,946 basehttp 4687 6123974656 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:31:52,960 basehttp 4687 6123974656 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:31:52,975 basehttp 4687 6123974656 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14868
+INFO 2023-11-22 22:33:31,971 autoreload 4757 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:33:42,089 basehttp 4757 6189674496 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:33:42,114 basehttp 4757 6189674496 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:33:42,142 basehttp 4757 6189674496 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14869
+INFO 2023-11-22 22:33:51,894 basehttp 4757 6189674496 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:33:51,931 basehttp 4757 6189674496 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14869
+INFO 2023-11-22 22:34:01,145 basehttp 4757 6189674496 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:34:01,171 basehttp 4757 6189674496 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:34:01,190 basehttp 4757 6189674496 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14869
+INFO 2023-11-22 22:35:33,814 autoreload 4918 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:35:38,463 basehttp 4918 6126170112 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14869
+INFO 2023-11-22 22:35:49,131 basehttp 4918 6126170112 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:35:49,145 basehttp 4918 6126170112 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:35:49,160 basehttp 4918 6126170112 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14868
+INFO 2023-11-22 22:36:58,938 autoreload 4918 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesson01/settings.py changed, reloading.
+INFO 2023-11-22 22:36:59,146 autoreload 4940 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:37:01,294 autoreload 4940 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesson01/settings.py changed, reloading.
+INFO 2023-11-22 22:37:01,468 autoreload 4946 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:37:06,048 basehttp 4946 6156726272 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14869
+INFO 2023-11-22 22:37:13,392 basehttp 4946 6156726272 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:37:13,444 basehttp 4946 6156726272 "GET /admin/ HTTP/1.1" 200 20328
+INFO 2023-11-22 22:37:13,452 basehttp 4946 6156726272 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-11-22 22:37:13,462 basehttp 4946 6156726272 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-11-22 22:37:13,463 basehttp 4946 6173552640 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2023-11-22 22:37:23,311 basehttp 4946 6156726272 "GET /admin/auth/user/ HTTP/1.1" 200 26930
+INFO 2023-11-22 22:37:23,324 basehttp 4946 6156726272 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-11-22 22:37:23,326 basehttp 4946 6224031744 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-11-22 22:37:23,327 basehttp 4946 6240858112 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-11-22 22:37:23,327 basehttp 4946 6207205376 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-11-22 22:37:23,328 basehttp 4946 6156726272 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-11-22 22:37:23,329 basehttp 4946 6224031744 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-11-22 22:37:23,329 basehttp 4946 6207205376 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-11-22 22:37:23,330 basehttp 4946 6240858112 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-11-22 22:37:23,330 basehttp 4946 6224031744 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2023-11-22 22:37:23,331 basehttp 4946 6156726272 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-11-22 22:37:23,331 basehttp 4946 6240858112 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2023-11-22 22:37:23,340 basehttp 4946 6190379008 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-11-22 22:37:23,344 basehttp 4946 6173552640 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 22:37:23,361 basehttp 4946 6173552640 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2023-11-22 22:37:23,361 basehttp 4946 6156726272 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-11-22 22:37:38,771 basehttp 4946 6156726272 "POST /admin/auth/user/ HTTP/1.1" 200 24534
+INFO 2023-11-22 22:37:38,779 basehttp 4946 6156726272 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2023-11-22 22:37:51,147 basehttp 4946 6156726272 "POST /admin/logout/ HTTP/1.1" 200 14308
+INFO 2023-11-22 22:37:52,613 basehttp 4946 6156726272 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:37:52,650 basehttp 4946 6156726272 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14869
+INFO 2023-11-22 22:38:03,662 basehttp 4946 6156726272 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:38:03,721 basehttp 4946 6156726272 "GET /admin/ HTTP/1.1" 200 23326
+INFO 2023-11-22 22:38:06,310 basehttp 4946 6156726272 "GET /admin/auth/user/ HTTP/1.1" 200 26927
+INFO 2023-11-22 22:38:06,335 basehttp 4946 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 22:38:10,742 basehttp 4946 6156726272 "POST /admin/auth/user/ HTTP/1.1" 200 21068
+INFO 2023-11-22 22:38:11,997 basehttp 4946 6156726272 "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:38:12,058 basehttp 4946 6156726272 "GET /admin/auth/user/ HTTP/1.1" 200 26686
+INFO 2023-11-22 22:38:12,082 basehttp 4946 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 22:38:43,631 basehttp 4946 6156726272 "GET /admin/auth/group/add/ HTTP/1.1" 200 29088
+INFO 2023-11-22 22:38:43,639 basehttp 4946 6156726272 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-11-22 22:38:43,644 basehttp 4946 6173552640 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-11-22 22:38:43,645 basehttp 4946 10754224128 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-11-22 22:38:43,654 basehttp 4946 10771050496 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-11-22 22:38:43,654 basehttp 4946 10787876864 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-11-22 22:38:43,654 basehttp 4946 10804703232 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-11-22 22:38:43,658 basehttp 4946 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 22:38:43,689 basehttp 4946 6173552640 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-11-22 22:38:43,689 basehttp 4946 6156726272 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2023-11-22 22:38:43,690 basehttp 4946 6156726272 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-11-22 22:38:45,820 basehttp 4946 6156726272 "GET /admin/auth/ HTTP/1.1" 200 16494
+INFO 2023-11-22 22:38:47,981 basehttp 4946 6156726272 "GET /admin/auth/group/ HTTP/1.1" 200 23026
+INFO 2023-11-22 22:38:48,021 basehttp 4946 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 22:38:49,981 basehttp 4946 6156726272 "GET /admin/auth/group/ HTTP/1.1" 200 23026
+INFO 2023-11-22 22:38:50,003 basehttp 4946 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 22:38:52,431 basehttp 4946 6156726272 "GET /admin/auth/user/ HTTP/1.1" 200 26523
+INFO 2023-11-22 22:38:52,437 basehttp 4946 6173552640 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:38:52,455 basehttp 4946 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 22:38:55,967 basehttp 4946 6156726272 "GET /admin/auth/user/1/change/ HTTP/1.1" 200 39639
+INFO 2023-11-22 22:38:55,979 basehttp 4946 10754224128 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2023-11-22 22:38:55,980 basehttp 4946 6173552640 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-11-22 22:38:55,993 basehttp 4946 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 22:38:56,013 basehttp 4946 6173552640 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-11-22 22:38:56,013 basehttp 4946 6156726272 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-11-22 22:39:23,421 basehttp 4946 6156726272 "POST /admin/auth/user/1/change/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:39:23,470 basehttp 4946 6156726272 "GET /admin/auth/user/ HTTP/1.1" 200 26744
+INFO 2023-11-22 22:39:23,492 basehttp 4946 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 22:39:28,430 basehttp 4946 6156726272 "GET /admin/auth/user/ HTTP/1.1" 200 26523
+INFO 2023-11-22 22:39:28,449 basehttp 4946 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 22:39:33,445 basehttp 4946 6156726272 "GET /admin/lectapp5/ HTTP/1.1" 200 16379
+INFO 2023-11-22 22:39:37,005 basehttp 4946 6156726272 "GET /admin/auth/group/ HTTP/1.1" 200 23026
+INFO 2023-11-22 22:39:37,031 basehttp 4946 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 22:39:38,424 basehttp 4946 6156726272 "GET /admin/auth/user/ HTTP/1.1" 200 26523
+INFO 2023-11-22 22:39:38,430 basehttp 4946 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO 2023-11-22 22:39:38,448 basehttp 4946 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 22:39:43,730 basehttp 4946 6156726272 "GET /admin/auth/group/add/ HTTP/1.1" 200 29088
+INFO 2023-11-22 22:39:43,754 basehttp 4946 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 22:40:28,866 basehttp 4946 6156726272 "GET /admin/lesapp2/ HTTP/1.1" 200 16815
+INFO 2023-11-22 22:40:38,168 basehttp 4946 6156726272 "GET /admin/ HTTP/1.1" 200 23279
+INFO 2023-11-22 22:40:38,175 basehttp 4946 6156726272 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2023-11-22 22:40:51,704 basehttp 4946 6156726272 "GET /admin/lectapp3/ HTTP/1.1" 200 16354
+INFO 2023-11-22 22:41:28,981 autoreload 4946 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 22:41:29,234 autoreload 5050 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:41:44,551 autoreload 5050 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 22:41:44,717 autoreload 5064 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:41:50,927 autoreload 5064 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 22:41:51,110 autoreload 5072 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:42:21,646 autoreload 5072 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 22:42:21,806 autoreload 5091 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:44:11,575 autoreload 5091 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 22:44:11,764 autoreload 5108 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:44:37,268 autoreload 5108 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 22:44:37,443 autoreload 5118 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:45:21,313 autoreload 5118 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 22:45:21,496 autoreload 5128 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:45:24,690 autoreload 5128 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 22:45:24,857 autoreload 5134 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:45:28,057 autoreload 5134 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 22:45:28,227 autoreload 5140 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:45:39,504 autoreload 5140 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 22:45:39,673 autoreload 5146 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:46:02,125 autoreload 5146 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 22:46:02,297 autoreload 5158 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:46:04,476 autoreload 5158 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 22:46:04,664 autoreload 5166 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:46:39,825 autoreload 5194 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:56:28,396 autoreload 5383 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:57:41,616 autoreload 5419 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:58:08,142 autoreload 5419 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/models.py changed, reloading.
+INFO 2023-11-22 22:58:08,334 autoreload 5430 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:58:25,707 autoreload 5430 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/models.py changed, reloading.
+INFO 2023-11-22 22:58:25,872 autoreload 5439 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:58:40,795 autoreload 5462 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 22:58:43,735 basehttp 5462 6157938688 "GET /admin/ HTTP/1.1" 200 22121
+INFO 2023-11-22 22:59:00,695 basehttp 5462 6157938688 "GET /admin/auth/group/2/change/ HTTP/1.1" 200 28455
+INFO 2023-11-22 22:59:00,719 basehttp 5462 6157938688 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 22:59:11,800 autoreload 5462 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 22:59:11,977 autoreload 5478 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:05:38,609 autoreload 5478 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/lesson01/settings.py changed, reloading.
+INFO 2023-11-22 23:05:38,893 autoreload 5594 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:06:38,010 autoreload 5628 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:06:43,606 basehttp 5628 6134296576 "GET /admin/ HTTP/1.1" 200 22829
+INFO 2023-11-22 23:07:02,369 basehttp 5628 6134296576 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 23708
+INFO 2023-11-22 23:07:02,393 basehttp 5628 6134296576 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:07:14,813 basehttp 5628 6134296576 "GET /admin/hw_les_02/product/30/change/ HTTP/1.1" 200 24269
+INFO 2023-11-22 23:07:14,832 basehttp 5628 6134296576 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:07:31,433 autoreload 5628 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:07:31,704 autoreload 5649 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:07:33,887 autoreload 5649 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:07:34,071 autoreload 5656 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:07:36,767 basehttp 5656 6161739776 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26677
+INFO 2023-11-22 23:07:36,790 basehttp 5656 6161739776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:07:47,750 basehttp 5656 6161739776 "GET /admin/hw_les_02/product/?price=1.00 HTTP/1.1" 200 23996
+INFO 2023-11-22 23:07:47,788 basehttp 5656 6161739776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:07:51,372 basehttp 5656 6161739776 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 26675
+INFO 2023-11-22 23:07:51,397 basehttp 5656 6161739776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:08:02,165 basehttp 5656 6161739776 "GET /admin/hw_les_02/product/?o=1 HTTP/1.1" 200 27398
+INFO 2023-11-22 23:08:02,191 basehttp 5656 6161739776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:08:03,651 basehttp 5656 6161739776 "GET /admin/hw_les_02/product/?o=-1 HTTP/1.1" 200 27424
+INFO 2023-11-22 23:08:03,692 basehttp 5656 6161739776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:08:05,202 basehttp 5656 6161739776 "GET /admin/hw_les_02/product/?o=1 HTTP/1.1" 200 27398
+INFO 2023-11-22 23:08:05,226 basehttp 5656 6161739776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:08:16,888 basehttp 5656 6161739776 "GET /admin/hw_les_02/product/?o=-1 HTTP/1.1" 200 27424
+INFO 2023-11-22 23:08:16,911 basehttp 5656 6161739776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:08:18,952 basehttp 5656 6161739776 "GET /admin/hw_les_02/product/?o=2.-1 HTTP/1.1" 200 27956
+INFO 2023-11-22 23:08:18,995 basehttp 5656 6161739776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:08:24,297 basehttp 5656 6161739776 "GET /admin/hw_les_02/product/?o=3.2.-1 HTTP/1.1" 200 28411
+INFO 2023-11-22 23:08:24,322 basehttp 5656 6161739776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:08:30,593 basehttp 5656 6161739776 "GET /admin/hw_les_02/product/?o=3.2 HTTP/1.1" 200 27928
+INFO 2023-11-22 23:08:30,617 basehttp 5656 6161739776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:08:36,781 basehttp 5656 6161739776 "GET /admin/hw_les_02/product/?o=3.2&price=169.83 HTTP/1.1" 200 25074
+INFO 2023-11-22 23:08:36,823 basehttp 5656 6161739776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:08:39,493 basehttp 5656 6161739776 "GET /admin/hw_les_02/product/?o=3.2 HTTP/1.1" 200 27928
+INFO 2023-11-22 23:08:39,517 basehttp 5656 6161739776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:08:50,386 basehttp 5656 6161739776 "GET /admin/hw_les_02/product/?q=name+prod_3&o=3.2 HTTP/1.1" 200 25114
+INFO 2023-11-22 23:08:50,408 basehttp 5656 6161739776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:08:54,397 basehttp 5656 6161739776 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 26675
+INFO 2023-11-22 23:08:54,444 basehttp 5656 6161739776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:09:18,300 basehttp 5656 6161739776 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 26675
+INFO 2023-11-22 23:09:18,308 basehttp 5656 6161739776 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO 2023-11-22 23:09:18,325 basehttp 5656 6161739776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:09:23,194 autoreload 5656 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:09:23,407 autoreload 5696 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:09:26,027 basehttp 5696 6134263808 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 26677
+INFO 2023-11-22 23:09:26,048 basehttp 5696 6134263808 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:09:26,954 basehttp 5696 6134263808 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 26675
+INFO 2023-11-22 23:09:26,992 basehttp 5696 6134263808 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:09:28,474 basehttp 5696 6134263808 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 26675
+INFO 2023-11-22 23:09:28,494 basehttp 5696 6134263808 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:09:30,675 basehttp 5696 6134263808 "GET /admin/hw_les_02/product/21/change/ HTTP/1.1" 200 24739
+INFO 2023-11-22 23:09:30,700 basehttp 5696 6134263808 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:09:36,313 basehttp 5696 6134263808 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 26677
+INFO 2023-11-22 23:09:36,321 basehttp 5696 6134263808 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO 2023-11-22 23:09:36,350 basehttp 5696 6134263808 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:09:38,207 basehttp 5696 6134263808 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 26677
+INFO 2023-11-22 23:09:38,213 basehttp 5696 6134263808 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO 2023-11-22 23:09:38,234 basehttp 5696 6134263808 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:09:44,159 autoreload 5696 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:09:44,369 autoreload 5708 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:09:51,597 autoreload 5708 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:09:51,787 autoreload 5716 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:09:54,230 basehttp 5716 6162018304 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 26677
+INFO 2023-11-22 23:09:54,251 basehttp 5716 6162018304 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:10:54,754 basehttp 5716 6162018304 "GET /admin/hw_les_02/product/?o=2 HTTP/1.1" 200 27398
+INFO 2023-11-22 23:10:54,790 basehttp 5716 6162018304 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:10:56,069 basehttp 5716 6162018304 "GET /admin/hw_les_02/product/?o=-2 HTTP/1.1" 200 27424
+INFO 2023-11-22 23:10:56,089 basehttp 5716 6162018304 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:10:59,572 autoreload 5716 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:10:59,862 autoreload 5733 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:11:00,520 basehttp 5733 6167031808 "GET /admin/hw_les_02/product/?o=-2 HTTP/1.1" 200 27426
+INFO 2023-11-22 23:11:00,543 basehttp 5733 6167031808 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:11:01,571 basehttp 5733 6167031808 "GET /admin/hw_les_02/product/?o=-2 HTTP/1.1" 200 27424
+INFO 2023-11-22 23:11:01,604 basehttp 5733 6167031808 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:11:02,810 basehttp 5733 6167031808 "GET /admin/hw_les_02/product/?o=-2 HTTP/1.1" 200 27424
+INFO 2023-11-22 23:11:02,832 basehttp 5733 6167031808 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:11:04,377 basehttp 5733 6167031808 "GET /admin/hw_les_02/product/21/change/?_changelist_filters=o%3D-2 HTTP/1.1" 200 24857
+INFO 2023-11-22 23:11:04,403 basehttp 5733 6167031808 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:11:08,276 basehttp 5733 6167031808 "GET /admin/hw_les_02/product/?o=-2 HTTP/1.1" 200 27426
+INFO 2023-11-22 23:11:08,312 basehttp 5733 6167031808 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:11:14,426 autoreload 5733 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:11:14,726 autoreload 5743 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:11:20,142 basehttp 5743 6137622528 "GET /admin/hw_les_02/product/?o=-2 HTTP/1.1" 200 27426
+INFO 2023-11-22 23:11:20,163 basehttp 5743 6137622528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:11:30,809 basehttp 5743 6137622528 "POST /admin/hw_les_02/product/?o=-2 HTTP/1.1" 302 0
+INFO 2023-11-22 23:11:30,891 basehttp 5743 6137622528 "GET /admin/hw_les_02/product/?o=-2 HTTP/1.1" 200 27694
+INFO 2023-11-22 23:11:30,910 basehttp 5743 6137622528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:11:30,919 basehttp 5743 6137622528 "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+INFO 2023-11-22 23:11:40,742 basehttp 5743 6137622528 "GET /admin/hw_les_02/product/?q=NameProd_5&o=-2 HTTP/1.1" 200 24549
+INFO 2023-11-22 23:11:40,762 basehttp 5743 6137622528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:11:42,710 basehttp 5743 6137622528 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 26675
+INFO 2023-11-22 23:11:42,717 basehttp 5743 6137622528 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO 2023-11-22 23:11:42,734 basehttp 5743 6137622528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:11:44,544 basehttp 5743 6137622528 "GET /admin/hw_les_02/product/?price=52.00 HTTP/1.1" 200 24015
+INFO 2023-11-22 23:11:44,568 basehttp 5743 6137622528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:11:46,201 basehttp 5743 6137622528 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 26675
+INFO 2023-11-22 23:11:46,208 basehttp 5743 6137622528 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO 2023-11-22 23:11:46,226 basehttp 5743 6137622528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:11:47,822 basehttp 5743 6137622528 "GET /admin/hw_les_02/product/?price=733.28 HTTP/1.1" 200 24032
+INFO 2023-11-22 23:11:47,847 basehttp 5743 6137622528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:11:49,632 basehttp 5743 6137622528 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 26675
+INFO 2023-11-22 23:11:49,638 basehttp 5743 6137622528 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO 2023-11-22 23:11:49,656 basehttp 5743 6137622528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:12:07,308 basehttp 5743 6137622528 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 26675
+INFO 2023-11-22 23:12:07,327 basehttp 5743 6137622528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:12:07,342 autoreload 5743 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:12:07,624 autoreload 5765 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:12:08,408 basehttp 5765 6122631168 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 25822
+INFO 2023-11-22 23:12:08,429 basehttp 5765 6122631168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:12:24,990 basehttp 5765 6122631168 "GET /admin/hw_les_02/product/21/change/ HTTP/1.1" 200 24739
+INFO 2023-11-22 23:12:25,026 basehttp 5765 6122631168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:12:28,132 basehttp 5765 6122631168 "GET /admin/hw_les_02/product/23/change/ HTTP/1.1" 200 24726
+INFO 2023-11-22 23:12:28,154 basehttp 5765 6122631168 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:12:39,523 autoreload 5765 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:12:39,745 autoreload 5777 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:12:42,825 basehttp 5777 6163197952 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 26126
+INFO 2023-11-22 23:12:42,843 basehttp 5777 6163197952 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:12:49,135 autoreload 5777 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:12:49,334 autoreload 5786 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:12:51,488 autoreload 5786 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:12:51,668 autoreload 5792 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:12:53,631 basehttp 5792 6128758784 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 26677
+INFO 2023-11-22 23:12:53,653 basehttp 5792 6128758784 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:12:55,996 basehttp 5792 6128758784 "GET /admin/hw_les_02/product/21/change/ HTTP/1.1" 200 24739
+INFO 2023-11-22 23:12:56,003 basehttp 5792 6128758784 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO 2023-11-22 23:12:56,020 basehttp 5792 6128758784 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:12:59,266 basehttp 5792 6128758784 "GET /admin/hw_les_02/product/25/change/ HTTP/1.1" 200 24717
+INFO 2023-11-22 23:12:59,288 basehttp 5792 6128758784 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:13:26,814 autoreload 5792 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:13:27,055 autoreload 5800 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:13:29,240 basehttp 5800 6171734016 "GET /admin/hw_les_02/product/? HTTP/1.1" 200 26981
+INFO 2023-11-22 23:13:29,262 basehttp 5800 6171734016 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:13:38,538 autoreload 5800 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:13:38,735 autoreload 5808 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:13:48,860 basehttp 5808 6201356288 "POST /admin/hw_les_02/product/? HTTP/1.1" 302 0
+INFO 2023-11-22 23:13:48,937 basehttp 5808 6201356288 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26818
+INFO 2023-11-22 23:13:48,964 basehttp 5808 6201356288 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:13:54,656 basehttp 5808 6201356288 "POST /admin/hw_les_02/product/ HTTP/1.1" 302 0
+INFO 2023-11-22 23:13:54,706 basehttp 5808 6201356288 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26675
+INFO 2023-11-22 23:13:54,728 basehttp 5808 6201356288 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:14:18,779 autoreload 5808 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:14:18,974 autoreload 5825 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:14:20,252 basehttp 5825 6171602944 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26677
+INFO 2023-11-22 23:14:20,277 basehttp 5825 6171602944 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:14:21,889 basehttp 5825 6171602944 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26675
+INFO 2023-11-22 23:14:21,925 basehttp 5825 6171602944 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:14:22,994 basehttp 5825 6171602944 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26675
+INFO 2023-11-22 23:14:23,017 basehttp 5825 6171602944 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-11-22 23:14:25,341 log 5825 6171602944 Internal Server Error: /admin/hw_les_02/product/21/change/
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_added, rating, category) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_added, rating, category) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-11-22 23:14:25,354 basehttp 5825 6171602944 "GET /admin/hw_les_02/product/21/change/ HTTP/1.1" 500 141491
+INFO 2023-11-22 23:14:25,361 basehttp 5825 6188429312 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO 2023-11-22 23:15:19,548 autoreload 5825 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:15:19,773 autoreload 5836 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:15:24,977 autoreload 5836 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:15:25,183 autoreload 5845 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:15:28,352 autoreload 5845 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:15:28,536 autoreload 5851 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:15:30,665 autoreload 5851 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:15:30,841 autoreload 5854 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:15:45,215 autoreload 5854 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:15:45,388 autoreload 5863 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:15:47,526 autoreload 5863 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:15:47,728 autoreload 5869 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:15:54,960 autoreload 5869 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:15:55,159 autoreload 5875 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:15:56,273 autoreload 5875 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:15:56,433 autoreload 5878 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:16:27,093 autoreload 5878 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:16:27,280 autoreload 5885 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:16:50,827 autoreload 5885 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:16:51,014 autoreload 5893 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:18:01,530 autoreload 5893 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:18:01,705 autoreload 5903 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:18:04,345 basehttp 5903 6204616704 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26677
+INFO 2023-11-22 23:18:04,381 basehttp 5903 6204616704 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:18:06,427 basehttp 5903 6204616704 "GET /admin/hw_les_02/product/24/change/ HTTP/1.1" 200 24326
+INFO 2023-11-22 23:18:06,439 basehttp 5903 6221443072 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2023-11-22 23:18:06,454 basehttp 5903 6204616704 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:18:27,478 autoreload 5903 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:18:27,726 autoreload 5916 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:18:28,242 basehttp 5916 6166048768 "GET /admin/hw_les_02/product/24/change/ HTTP/1.1" 200 24270
+INFO 2023-11-22 23:18:28,263 basehttp 5916 6166048768 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:19:16,905 autoreload 5916 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:19:17,101 autoreload 5926 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:19:19,816 basehttp 5926 6157873152 "GET /admin/hw_les_02/product/24/change/ HTTP/1.1" 200 25004
+INFO 2023-11-22 23:19:19,835 basehttp 5926 6157873152 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+WARNING 2023-11-22 23:19:23,489 log 5926 6157873152 Not Found: /media/1
+WARNING 2023-11-22 23:19:23,489 basehttp 5926 6157873152 "GET /media/1 HTTP/1.1" 404 14983
+INFO 2023-11-22 23:19:59,696 basehttp 5926 6157873152 "GET /admin/hw_les_02/product/21/change/ HTTP/1.1" 200 25015
+INFO 2023-11-22 23:19:59,735 basehttp 5926 6157873152 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:20:02,154 basehttp 5926 6157873152 "GET /media/hw_les_02/apple.jpeg HTTP/1.1" 200 125987
+INFO 2023-11-22 23:20:49,594 autoreload 5926 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:20:49,813 autoreload 5964 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:20:55,947 basehttp 5964 6122844160 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26677
+INFO 2023-11-22 23:20:55,967 basehttp 5964 6122844160 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:20:57,261 basehttp 5964 6122844160 "GET /admin/hw_les_02/product/25/change/ HTTP/1.1" 200 25005
+INFO 2023-11-22 23:20:57,280 basehttp 5964 6122844160 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:21:38,006 autoreload 5964 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:21:38,227 autoreload 5977 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:21:42,405 autoreload 5977 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:21:42,593 autoreload 5983 8071700160 Watching for file changes with StatReloader
+ERROR 2023-11-22 23:21:47,326 log 5983 6202109952 Internal Server Error: /admin/hw_les_02/product/25/change/
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_added, rating, category) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_added, rating, category) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-11-22 23:21:47,347 basehttp 5983 6202109952 "GET /admin/hw_les_02/product/25/change/ HTTP/1.1" 500 140219
+INFO 2023-11-22 23:21:50,967 autoreload 5983 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:21:51,184 autoreload 5992 8071700160 Watching for file changes with StatReloader
+ERROR 2023-11-22 23:21:51,920 log 5992 6163476480 Internal Server Error: /admin/hw_les_02/product/25/change/
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (rating, category, date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (rating, category, date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-11-22 23:21:51,942 basehttp 5992 6163476480 "GET /admin/hw_les_02/product/25/change/ HTTP/1.1" 500 139804
+INFO 2023-11-22 23:21:51,950 basehttp 5992 6180302848 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+ERROR 2023-11-22 23:21:52,937 log 5992 6163476480 Internal Server Error: /admin/hw_les_02/product/25/change/
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (rating, category, date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (rating, category, date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-11-22 23:21:52,949 basehttp 5992 6163476480 "GET /admin/hw_les_02/product/25/change/ HTTP/1.1" 500 139804
+ERROR 2023-11-22 23:21:53,923 log 5992 6163476480 Internal Server Error: /admin/hw_les_02/product/25/change/
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (rating, category, date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (rating, category, date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-11-22 23:21:53,935 basehttp 5992 6163476480 "GET /admin/hw_les_02/product/25/change/ HTTP/1.1" 500 139803
+ERROR 2023-11-22 23:21:56,886 log 5992 6163476480 Internal Server Error: /admin/hw_les_02/product/25/change/
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (rating, category, date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (rating, category, date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-11-22 23:21:56,910 basehttp 5992 6163476480 "GET /admin/hw_les_02/product/25/change/ HTTP/1.1" 500 139979
+INFO 2023-11-22 23:21:57,850 basehttp 5992 6163476480 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26677
+INFO 2023-11-22 23:21:57,875 basehttp 5992 6163476480 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:21:59,254 basehttp 5992 6163476480 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26675
+INFO 2023-11-22 23:21:59,274 basehttp 5992 6163476480 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:22:21,001 autoreload 5992 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:22:21,214 autoreload 6003 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:22:25,401 autoreload 6003 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:22:25,587 autoreload 6009 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:22:31,822 autoreload 6009 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:22:32,032 autoreload 6015 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:22:32,867 basehttp 6015 6130151424 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26677
+INFO 2023-11-22 23:22:32,888 basehttp 6015 6130151424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-11-22 23:22:35,808 log 6015 6130151424 Internal Server Error: /admin/hw_les_02/product/21/change/
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 300, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_add' cannot be specified for Product model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_add' cannot be specified for Product model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-11-22 23:22:35,823 basehttp 6015 6130151424 "GET /admin/hw_les_02/product/21/change/ HTTP/1.1" 500 145824
+INFO 2023-11-22 23:22:35,828 basehttp 6015 6146977792 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+ERROR 2023-11-22 23:22:37,941 log 6015 6130151424 Internal Server Error: /admin/hw_les_02/product/21/change/
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 300, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_add' cannot be specified for Product model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "/Users/ruslanalbakov/Documents/ДЗ/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_add' cannot be specified for Product model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-11-22 23:22:37,953 basehttp 6015 6130151424 "GET /admin/hw_les_02/product/21/change/ HTTP/1.1" 500 145824
+INFO 2023-11-22 23:22:37,959 basehttp 6015 6146977792 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO 2023-11-22 23:23:31,734 autoreload 6015 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:23:31,952 autoreload 6027 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:23:32,317 basehttp 6027 6205485056 "GET /admin/hw_les_02/product/21/change/ HTTP/1.1" 200 22873
+INFO 2023-11-22 23:23:32,337 basehttp 6027 6205485056 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:23:57,661 autoreload 6027 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:23:57,862 autoreload 6035 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:24:02,047 autoreload 6035 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:24:02,249 autoreload 6042 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:24:05,408 autoreload 6042 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:24:05,603 autoreload 6048 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:24:05,831 basehttp 6048 6198636544 "GET /admin/hw_les_02/product/21/change/ HTTP/1.1" 200 23505
+INFO 2023-11-22 23:24:05,850 basehttp 6048 6198636544 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:24:09,846 basehttp 6048 6198636544 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26675
+INFO 2023-11-22 23:24:09,878 basehttp 6048 6198636544 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:24:11,714 basehttp 6048 6198636544 "GET /admin/hw_les_02/product/24/change/ HTTP/1.1" 200 23528
+INFO 2023-11-22 23:24:11,740 basehttp 6048 6198636544 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:24:26,223 autoreload 6048 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:24:26,434 autoreload 6056 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:24:27,572 autoreload 6056 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:24:27,739 autoreload 6059 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:24:30,058 basehttp 6059 6197424128 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26677
+INFO 2023-11-22 23:24:30,083 basehttp 6059 6197424128 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:24:31,427 basehttp 6059 6197424128 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26675
+INFO 2023-11-22 23:24:31,462 basehttp 6059 6197424128 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:24:32,263 basehttp 6059 6197424128 "GET /admin/hw_les_02/product/21/change/ HTTP/1.1" 200 24739
+INFO 2023-11-22 23:24:32,270 basehttp 6059 6197424128 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO 2023-11-22 23:24:32,287 basehttp 6059 6197424128 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:25:19,354 autoreload 6059 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:25:19,563 autoreload 6067 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:25:24,420 basehttp 6067 6156414976 "GET /admin/hw_les_02/product/21/change/ HTTP/1.1" 200 25027
+INFO 2023-11-22 23:25:24,439 basehttp 6067 6156414976 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:25:32,081 basehttp 6067 6156414976 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26679
+INFO 2023-11-22 23:25:32,103 basehttp 6067 6156414976 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:25:38,209 autoreload 6067 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:25:38,411 autoreload 6082 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:25:40,543 autoreload 6082 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:25:40,750 autoreload 6088 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:26:00,184 autoreload 6088 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:26:00,367 autoreload 6117 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:26:01,481 autoreload 6117 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:26:01,653 autoreload 6120 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:26:11,934 autoreload 6120 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:26:12,122 autoreload 6126 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:26:13,286 autoreload 6126 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:26:13,460 autoreload 6130 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:26:14,621 autoreload 6130 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:26:14,793 autoreload 6131 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:26:19,983 autoreload 6131 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:26:20,165 autoreload 6137 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:26:26,379 autoreload 6137 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:26:26,553 autoreload 6144 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:26:34,824 autoreload 6144 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:26:34,989 autoreload 6150 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:26:38,170 autoreload 6150 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:26:38,361 autoreload 6156 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:26:40,550 autoreload 6156 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:26:40,712 autoreload 6157 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:26:50,005 autoreload 6157 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:26:50,165 autoreload 6168 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:26:51,339 autoreload 6168 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:26:51,508 autoreload 6171 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:26:52,678 autoreload 6171 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:26:52,841 autoreload 6172 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:26:59,053 autoreload 6172 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:26:59,224 autoreload 6178 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:27:08,497 autoreload 6178 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:27:08,682 autoreload 6184 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:27:09,848 autoreload 6184 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:27:10,037 autoreload 6188 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:27:14,230 autoreload 6188 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:27:14,421 autoreload 6192 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:27:20,645 autoreload 6192 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:27:20,838 autoreload 6200 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:27:24,022 autoreload 6200 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:27:24,201 autoreload 6204 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:27:26,380 autoreload 6204 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:27:26,570 autoreload 6207 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:27:27,733 autoreload 6207 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:27:27,919 autoreload 6211 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:27:30,094 autoreload 6211 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:27:30,294 autoreload 6214 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:27:39,553 autoreload 6214 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:27:39,756 autoreload 6220 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:27:40,418 basehttp 6220 6125056000 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26994
+INFO 2023-11-22 23:27:40,454 basehttp 6220 6125056000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:27:43,545 basehttp 6220 6125056000 "GET /admin/hw_les_02/customer/ HTTP/1.1" 200 25962
+INFO 2023-11-22 23:27:43,583 basehttp 6220 6125056000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:28:07,520 autoreload 6220 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:28:07,717 autoreload 6233 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:28:08,884 autoreload 6233 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:28:09,066 autoreload 6239 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:28:13,245 autoreload 6239 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:28:13,445 autoreload 6241 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:28:33,960 autoreload 6241 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:28:34,145 autoreload 6252 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:28:35,283 autoreload 6252 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:28:35,449 autoreload 6255 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:28:40,662 autoreload 6255 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:28:40,851 autoreload 6263 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:28:48,090 autoreload 6263 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:28:48,268 autoreload 6269 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:29:27,158 autoreload 6269 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:29:27,338 autoreload 6276 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:29:28,502 autoreload 6276 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:29:28,708 autoreload 6279 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:29:43,122 autoreload 6279 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:29:43,313 autoreload 6285 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:29:45,440 autoreload 6285 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:29:45,627 autoreload 6292 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:30:05,099 autoreload 6292 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:30:05,290 autoreload 6302 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:30:12,517 autoreload 6302 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:30:12,714 autoreload 6310 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:30:16,896 autoreload 6310 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:30:17,072 autoreload 6316 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:30:35,470 autoreload 6316 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:30:35,648 autoreload 6322 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:30:46,957 autoreload 6322 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:30:47,141 autoreload 6330 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:30:49,281 autoreload 6330 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:30:49,476 autoreload 6336 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:30:55,671 autoreload 6336 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:30:55,869 autoreload 6342 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:31:13,291 autoreload 6342 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:31:13,477 autoreload 6348 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:31:53,298 autoreload 6348 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:31:53,483 autoreload 6357 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:32:02,765 autoreload 6357 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:32:02,949 autoreload 6365 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:32:05,070 autoreload 6365 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:32:05,253 autoreload 6371 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:32:17,581 autoreload 6371 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:32:17,768 autoreload 6378 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:32:18,894 autoreload 6378 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:32:19,061 autoreload 6384 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:32:21,192 autoreload 6384 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:32:21,399 autoreload 6385 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:32:37,817 autoreload 6385 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:32:38,020 autoreload 6396 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:33:02,581 autoreload 6396 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:33:02,775 autoreload 6404 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:33:33,464 autoreload 6404 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:33:33,651 autoreload 6413 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:34:25,792 autoreload 6413 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:34:25,977 autoreload 6424 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:34:27,100 autoreload 6424 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:34:27,259 autoreload 6428 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:34:29,427 autoreload 6428 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:34:29,611 autoreload 6432 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:34:31,792 autoreload 6432 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:34:31,971 autoreload 6435 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:34:46,309 autoreload 6435 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:34:46,497 autoreload 6441 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:34:47,610 autoreload 6441 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:34:47,772 autoreload 6444 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:35:04,170 autoreload 6444 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:35:04,363 autoreload 6450 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:35:19,756 autoreload 6450 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:35:19,927 autoreload 6458 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:35:22,689 basehttp 6458 6130544640 "GET /admin/hw_les_02/customer/ HTTP/1.1" 200 27121
+INFO 2023-11-22 23:35:22,725 basehttp 6458 6130544640 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:35:25,084 basehttp 6458 6130544640 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26994
+INFO 2023-11-22 23:35:25,108 basehttp 6458 6130544640 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:35:27,958 basehttp 6458 6130544640 "GET /admin/hw_les_02/product/21/change/ HTTP/1.1" 200 25342
+INFO 2023-11-22 23:35:27,982 basehttp 6458 6130544640 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:35:40,845 basehttp 6458 6130544640 "GET /admin/hw_les_02/customer/ HTTP/1.1" 200 27121
+INFO 2023-11-22 23:35:40,869 basehttp 6458 6130544640 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:36:11,930 basehttp 6458 6130544640 "GET /admin/hw_les_02/customer/21/change/ HTTP/1.1" 200 22002
+INFO 2023-11-22 23:36:11,954 basehttp 6458 6130544640 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:36:25,570 basehttp 6458 6130544640 "GET /admin/hw_les_02/customer/22/change/ HTTP/1.1" 200 22002
+INFO 2023-11-22 23:36:25,594 basehttp 6458 6130544640 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:36:42,037 autoreload 6458 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:36:42,238 autoreload 6485 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:36:44,289 basehttp 6485 6129446912 "GET /admin/hw_les_02/customer/22/change/ HTTP/1.1" 200 21945
+INFO 2023-11-22 23:36:44,309 basehttp 6485 6129446912 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:37:05,868 autoreload 6485 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:37:06,053 autoreload 6493 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:37:12,261 autoreload 6493 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:37:12,446 autoreload 6501 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:37:13,590 autoreload 6501 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:37:13,759 autoreload 6502 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:37:17,920 autoreload 6502 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:37:18,102 autoreload 6508 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:37:21,257 autoreload 6508 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:37:21,430 autoreload 6513 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:37:31,684 autoreload 6513 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:37:31,867 autoreload 6521 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:37:37,064 autoreload 6521 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:37:37,244 autoreload 6527 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:37:39,371 autoreload 6527 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:37:39,566 autoreload 6533 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:37:43,727 autoreload 6533 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:37:43,931 autoreload 6540 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:37:45,047 autoreload 6540 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:37:45,205 autoreload 6541 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:37:56,485 autoreload 6541 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:37:56,671 autoreload 6548 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:37:59,823 autoreload 6548 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:38:00,011 autoreload 6556 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:38:02,149 autoreload 6556 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:38:02,332 autoreload 6559 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:38:06,499 autoreload 6559 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:38:06,682 autoreload 6565 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:38:11,880 autoreload 6565 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:38:12,059 autoreload 6573 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:38:15,202 autoreload 6573 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:38:15,395 autoreload 6579 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:38:18,544 autoreload 6579 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:38:18,728 autoreload 6585 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:38:20,856 autoreload 6585 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:38:21,030 autoreload 6586 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:38:24,186 autoreload 6586 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:38:24,386 autoreload 6592 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:38:37,718 autoreload 6592 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:38:37,885 autoreload 6598 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:38:39,007 autoreload 6598 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:38:39,167 autoreload 6601 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:38:40,335 autoreload 6601 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:38:40,515 autoreload 6602 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:38:42,686 autoreload 6602 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:38:42,878 autoreload 6606 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:38:48,105 autoreload 6606 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:38:48,297 autoreload 6612 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:39:38,287 autoreload 6612 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:39:38,482 autoreload 6645 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:39:40,649 autoreload 6645 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:39:40,861 autoreload 6652 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:39:41,631 basehttp 6652 6131494912 "GET /admin/hw_les_02/customer/22/change/ HTTP/1.1" 200 23323
+INFO 2023-11-22 23:39:41,668 basehttp 6652 6131494912 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:40:11,712 autoreload 6652 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:40:11,926 autoreload 6659 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:40:15,086 autoreload 6659 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:40:15,288 autoreload 6665 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:40:15,918 basehttp 6665 6138032128 "GET /admin/hw_les_02/customer/22/change/ HTTP/1.1" 200 23209
+INFO 2023-11-22 23:40:15,939 basehttp 6665 6138032128 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:40:28,695 autoreload 6665 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:40:28,897 autoreload 6672 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:40:32,068 autoreload 6672 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:40:32,279 autoreload 6678 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:40:32,927 basehttp 6678 6195736576 "GET /admin/hw_les_02/customer/22/change/ HTTP/1.1" 200 23751
+INFO 2023-11-22 23:40:32,946 basehttp 6678 6195736576 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:41:00,003 autoreload 6678 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:41:00,213 autoreload 6684 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:41:04,382 autoreload 6684 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:41:04,583 autoreload 6691 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:41:13,849 autoreload 6691 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:41:14,053 autoreload 6699 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:41:23,342 autoreload 6699 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:41:23,551 autoreload 6707 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:41:29,768 autoreload 6707 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:41:29,960 autoreload 6713 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:41:35,150 autoreload 6713 8071700160 /Users/ruslanalbakov/Documents/ДЗ/Django/Geekbrains/hw_les_02/admin.py changed, reloading.
+INFO 2023-11-22 23:41:35,357 autoreload 6719 8071700160 Watching for file changes with StatReloader
+INFO 2023-11-22 23:41:35,687 basehttp 6719 6161412096 "GET /admin/hw_les_02/customer/22/change/ HTTP/1.1" 200 24415
+INFO 2023-11-22 23:41:35,706 basehttp 6719 6161412096 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:41:44,280 basehttp 6719 6161412096 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26994
+INFO 2023-11-22 23:41:44,287 basehttp 6719 6161412096 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO 2023-11-22 23:41:44,303 basehttp 6719 6161412096 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:41:46,216 basehttp 6719 6161412096 "GET /admin/hw_les_02/product/25/change/ HTTP/1.1" 200 25320
+INFO 2023-11-22 23:41:46,236 basehttp 6719 6161412096 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:41:54,140 basehttp 6719 6161412096 "GET /admin/hw_les_02/product/ HTTP/1.1" 200 26994
+INFO 2023-11-22 23:41:54,147 basehttp 6719 6161412096 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO 2023-11-22 23:41:54,165 basehttp 6719 6161412096 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:41:56,700 basehttp 6719 6161412096 "GET /admin/hw_les_02/product/21/change/ HTTP/1.1" 200 25342
+INFO 2023-11-22 23:41:56,706 basehttp 6719 6161412096 "GET /admin/jsi18n/ HTTP/1.1" 302 0
+INFO 2023-11-22 23:41:56,722 basehttp 6719 6161412096 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-11-22 23:42:07,070 basehttp 6719 6161412096 "GET /admin/hw_les_02/product/21/history/ HTTP/1.1" 200 19813
+INFO 2023-11-22 23:42:09,943 basehttp 6719 6161412096 "GET /admin/ HTTP/1.1" 200 23291
+INFO 2023-11-22 23:42:40,446 basehttp 6719 6161412096 "POST /admin/logout/ HTTP/1.1" 200 14310
+INFO 2023-11-22 23:42:49,346 basehttp 6719 6161412096 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14871
+INFO 2023-11-22 23:42:49,915 basehttp 6719 6161412096 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-11-22 23:42:49,941 basehttp 6719 6161412096 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14871
+INFO 2023-11-22 23:42:53,593 views 6719 6161412096 Index page accessed
+INFO 2023-11-22 23:42:53,607 basehttp 6719 6161412096 "GET / HTTP/1.1" 200 13
+INFO 2023-11-22 23:42:55,040 basehttp 6719 6161412096 "GET /homework/product/ HTTP/1.1" 200 13061

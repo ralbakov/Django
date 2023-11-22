@@ -20,14 +20,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-import os
 
-SECRET_KEY = os.getenv('SECRET_KEY')
+SECRET_KEY = '0abc04b39258a10e30831f22b979480a9d9540ec2d09f8a36d3e4aed885d3bf2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False # для реального проекта отключаем
-SESSION_COOKIE_SECURE = True # добавить в реальном проекте
-CSRF_COOKIE_SECURE = True # добавить в реальном проекте
+DEBUG = True # для реального проекта отключаем
+# SESSION_COOKIE_SECURE = False # добавить в реальном проекте
+# CSRF_COOKIE_SECURE = False # добавить в реальном проекте
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
@@ -99,17 +98,21 @@ WSGI_APPLICATION = 'lesson01.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ralbakov$default',
-        'USER': 'ralbakov',
-        'PASSWORD': os.getenv('MYSQL_PASSWORD'),
-        'HOST': 'ralbakov.mysql.pythonanywhere-services.com',
-        'OPTIONS': {
-            'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
-            'charset': 'utf8mb4',
-        },
-
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'ralbakov$default',
+    #     'USER': 'ralbakov',
+    #     'PASSWORD': os.getenv('MYSQL_PASSWORD'),
+    #     'HOST': 'ralbakov.mysql.pythonanywhere-services.com',
+    #     'OPTIONS': {
+    #         'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
+    #         'charset': 'utf8mb4',
+    #     },
+
+    # }
 }
 
 
